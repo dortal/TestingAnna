@@ -1,0 +1,104 @@
+Date: 2/24/2014 10:27:49 AM
+Product version: 714.14048.7
+Available memory: 7954Mb
+Used memory: 43Mb
+Processor architecture: AMD64 Win32NT
+OS: Microsoft Windows NT 6.1.7601 Service Pack 1
+Current Directory: C:\Enterprise\CXEngine\CxEngine Main\Product
+Processor Count: 4
+CLR Version: 2.0.50727.5472
+Executable PID: 12552
+Executable Location: C:\Enterprise\CXEngine\CxEngine Main\Product\CLI.vshost.exe
+Process ID: 12552 
+C:\ 736GB Free
+S:\ 1160GB Free
+Z:\ 1160GB Free
+Disk Speed: 4648 Ticks per one request
+
+Product: Checkmarx Engine Server
+-		Main Version: 7.1.2
+-		Hotfix Version: 9
+-		Path: 'C:\Program Files (x86)\Checkmarx\Checkmarx Engine Server\'
+Product: Checkmarx Audit:
+-		Main Version: 7.1.2
+-		Hotfix Version: 9
+-		Path: 'C:\Program Files (x86)\Checkmarx\Checkmarx Audit\'
+Current Product dll's version list:
+___________________________________
+ASP.dll:  714.14048.7.0
+CSharp.dll:  714.14048.7.0
+CxGeneral.dll:  714.14048.7.0
+CxOptimizer.dll:  714.14048.7.0
+CxSyntaxEdit.dll:  714.14048.7.0
+DataCollections.dll:  714.14048.7.0
+EngineFacade.dll:  714.14048.7.0
+Flowgraphs.dll:  714.14048.7.0
+Plugin.dll:  714.14048.7.0
+Query.dll:  714.14048.7.0
+CxWrm.dll:  714.14048.7.0
+
+
+Current Engine Configuration:
+_____________________________
+ALL_MEMBERS=false
+PROCESS_ASPX=true
+PROCESS_ASCX=true
+LOAD_NODE_TO_GRAPH=true
+LOAD_NODE2GRAPH_ADDITIONAL_MEMBERS=true
+MEMORY_LIMIT=350
+PROCESS_UNCOMPILED_FILES=false
+JAVA_ENUM_ENABLED=true
+MAX_METHODS_TO_PROCESS=9999999
+OPTIMIZATION_MODE=0
+MAX_DOM_METHODS_TO_PROCESS=9999999
+PROCESS_RESOLVE=true
+LOAD_CDG_GRAPHS=false
+LOAD_DFG_GRAPHS=true
+LOAD_CFG_GRAPHS=true
+MAX_PATH_LENGTH=125
+ACCESS_CONNECTION_STRING=Provider=Microsoft.Jet.OLEDB.4.0;Data Source=
+MAXIMUM_PROCESSING_TIME=2880
+MINIMUM_AVAILABLE_MEMORY=-1
+MAXIMUM_VIRTUAL_MEMORY=375
+MAX_PERSISTENT_OBJECTS=500
+MAX_LINES_OF_CODE=2000000
+MAX_QUERY_TIME=60
+MAX_NUMBER_OF_QUERIES=4
+MAX_QUERY_TIME_PER_100K=30
+START_PATH_FROM_MEMBERS=false
+REFLECTOR_PATH=C:\Program Files\Refl\Reflector.exe
+FLOW_CACHE_LEVEL=1
+FLOW_CACHE_CLEAR_FREQUENCY=4
+IS_JAVA_SCRIPT_ENABLED=true
+MAX_BAD_LINES=50
+MAX_LINES_IN_A_ROW=30
+ENCODING=utf-8
+REPORT_INFO_LIMIT=10
+REPORT_WARNING_LIMIT=20
+GLOBAL_VARIABLES=true
+EXPORT_RESULTS_IN_SATE_XML_FORMAT=False
+PARSING_TIMEOUT=180
+DFGTIMEOUT=300000000
+BULK_SIZE=64
+MAX_NUMBER_OF_PARALLEL_SCANS=3
+MAX_PATH_ALGORITHM=false
+MAX_CFG_SIZE=20000
+LAST_ENVIRONMENT=C:\Checkmarx\Optimization\Checkmarx\Optimisation\Checkmarx\Products\test1.cxe
+CLEAR_CACHE=false
+QUERY_PATH=Queries
+PARAMETERS_LOGGING=ALL
+INCLUDE_LEVEL=999
+MULTI_LANGUAGE_MODE=2
+SUPPORTED_LANGUAGES=1,32;128,256; 4, 2048
+LANGUAGE_THRESHOLD=2.1
+LOCAL_SOURCE_FOLDER=c:\CxSrc
+SKIP_DEAD_END=false
+USE_JAVA_SCRIPT_INCLUDE_BY_REFERENCE=true
+
+
+====================================================
+
+Date: 2/24/2014 10:27:49 AM	Available memory: 7952	Used memory: 46	Elapsed Time: 00:00:00.3251850
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Checkmarx.Program.InitSourceFolder() in c:\Enterprise\CXEngine\CxEngine Main\Tools\CLI\Program.cs:line 400
+-----

@@ -1,0 +1,1841 @@
+Date: 2/24/2014 10:41:11 AM
+Product version: 714.14048.7
+Available memory: 7916Mb
+Used memory: 42Mb
+Processor architecture: AMD64 Win32NT
+OS: Microsoft Windows NT 6.1.7601 Service Pack 1
+Current Directory: C:\Enterprise\CXEngine\CxEngine Main\Product
+Processor Count: 4
+CLR Version: 2.0.50727.5472
+Executable PID: 12840
+Executable Location: C:\Enterprise\CXEngine\CxEngine Main\Product\CLI.vshost.exe
+Process ID: 12840 
+C:\ 736GB Free
+S:\ 1160GB Free
+Z:\ 1160GB Free
+Disk Speed: 3759 Ticks per one request
+
+Product: Checkmarx Engine Server
+-		Main Version: 7.1.2
+-		Hotfix Version: 9
+-		Path: 'C:\Program Files (x86)\Checkmarx\Checkmarx Engine Server\'
+Product: Checkmarx Audit:
+-		Main Version: 7.1.2
+-		Hotfix Version: 9
+-		Path: 'C:\Program Files (x86)\Checkmarx\Checkmarx Audit\'
+Current Product dll's version list:
+___________________________________
+ASP.dll:  714.14048.7.0
+CSharp.dll:  714.14048.7.0
+CxGeneral.dll:  714.14048.7.0
+CxOptimizer.dll:  714.14048.7.0
+CxSyntaxEdit.dll:  714.14048.7.0
+DataCollections.dll:  714.14048.7.0
+EngineFacade.dll:  714.14048.7.0
+Flowgraphs.dll:  714.14048.7.0
+Plugin.dll:  714.14048.7.0
+Query.dll:  714.14048.7.0
+CxWrm.dll:  714.14048.7.0
+
+
+Current Engine Configuration:
+_____________________________
+ALL_MEMBERS=false
+PROCESS_ASPX=true
+PROCESS_ASCX=true
+LOAD_NODE_TO_GRAPH=true
+LOAD_NODE2GRAPH_ADDITIONAL_MEMBERS=true
+MEMORY_LIMIT=350
+PROCESS_UNCOMPILED_FILES=false
+JAVA_ENUM_ENABLED=true
+MAX_METHODS_TO_PROCESS=9999999
+OPTIMIZATION_MODE=0
+MAX_DOM_METHODS_TO_PROCESS=9999999
+PROCESS_RESOLVE=true
+LOAD_CDG_GRAPHS=false
+LOAD_DFG_GRAPHS=true
+LOAD_CFG_GRAPHS=true
+MAX_PATH_LENGTH=125
+ACCESS_CONNECTION_STRING=Provider=Microsoft.Jet.OLEDB.4.0;Data Source=
+MAXIMUM_PROCESSING_TIME=2880
+MINIMUM_AVAILABLE_MEMORY=-1
+MAXIMUM_VIRTUAL_MEMORY=375
+MAX_PERSISTENT_OBJECTS=500
+MAX_LINES_OF_CODE=2000000
+MAX_QUERY_TIME=60
+MAX_NUMBER_OF_QUERIES=4
+MAX_QUERY_TIME_PER_100K=30
+START_PATH_FROM_MEMBERS=false
+REFLECTOR_PATH=C:\Program Files\Refl\Reflector.exe
+FLOW_CACHE_LEVEL=1
+FLOW_CACHE_CLEAR_FREQUENCY=4
+IS_JAVA_SCRIPT_ENABLED=true
+MAX_BAD_LINES=50
+MAX_LINES_IN_A_ROW=30
+ENCODING=utf-8
+REPORT_INFO_LIMIT=10
+REPORT_WARNING_LIMIT=20
+GLOBAL_VARIABLES=true
+EXPORT_RESULTS_IN_SATE_XML_FORMAT=False
+PARSING_TIMEOUT=180
+DFGTIMEOUT=300000000
+BULK_SIZE=64
+MAX_NUMBER_OF_PARALLEL_SCANS=3
+MAX_PATH_ALGORITHM=false
+MAX_CFG_SIZE=20000
+LAST_ENVIRONMENT=C:\Checkmarx\Optimization\Checkmarx\Optimisation\Checkmarx\Products\test1.cxe
+CLEAR_CACHE=false
+QUERY_PATH=Queries
+PARAMETERS_LOGGING=ALL
+INCLUDE_LEVEL=999
+MULTI_LANGUAGE_MODE=2
+SUPPORTED_LANGUAGES=1,32;128,256; 4, 2048
+LANGUAGE_THRESHOLD=2.1
+LOCAL_SOURCE_FOLDER=c:\CxSrc
+SKIP_DEAD_END=false
+USE_JAVA_SCRIPT_INCLUDE_BY_REFERENCE=true
+
+
+====================================================
+
+Date: 2/24/2014 10:41:12 AM	Available memory: 7915	Used memory: 45	Elapsed Time: 00:00:00.2449755
+initiating status watchdog timer
+-----
+Date: 2/24/2014 10:41:12 AM	Available memory: 7913	Used memory: 46	Elapsed Time: 00:00:00.3689631
+Begin analyzing sources of the project '\\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines'
+-----
+Date: 2/24/2014 10:41:12 AM	Available memory: 7912	Used memory: 47	Elapsed Time: 00:00:00.3769623
+Solution relative path is: '\\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines'
+-----
+Date: 2/24/2014 10:41:12 AM	Available memory: 7914	Used memory: 45	Elapsed Time: 00:00:00.3839616
+Solution dummy file is: '\\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\CxDummy.cx'
+-----
+Date: 2/24/2014 10:41:12 AM	Available memory: 7914	Used memory: 45	Elapsed Time: 00:00:00.3899610
+Begin analyzing DOM of the project '\\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines'
+-----
+Date: 2/24/2014 10:41:12 AM	Available memory: 7913	Used memory: 47	Elapsed Time: 00:00:00.4419558
+scan all files Files[C_SHARP]=62, Files[ASP_NET]=28, Files[JAVA_SCRIPT]=28, Files[VB_NET]=28, Files[VB_SCRIPT]=28, Files[PLSQL]=2
+This Project will scan the following languages  CSharp, JavaScript, VbNet, VbScript, PLSQL
+-----
+Date: 2/24/2014 10:41:12 AM	Available memory: 7912	Used memory: 47	Elapsed Time: 00:00:00.4519548
+scan all files Files[C_SHARP]=62, Files[ASP_NET]=28, Files[JAVA_SCRIPT]=28, Files[VB_NET]=28, Files[VB_SCRIPT]=28, Files[PLSQL]=2
+This Project will scan the following languages  CSharp, JavaScript, VbNet, VbScript, PLSQL
+-----
+Date: 2/24/2014 10:41:12 AM	Available memory: 7912	Used memory: 46	Elapsed Time: 00:00:00.9039096
+Scanning or Auditing Project type code is: 8297 that has 14792 lines of code
+-----
+Date: 2/24/2014 10:41:12 AM	Available memory: 7913	Used memory: 47	Elapsed Time: 00:00:00.9519048
+Begin Parsing CSHARP
+-----
+Date: 2/24/2014 10:41:12 AM	Available memory: 7911	Used memory: 48	Elapsed Time: 00:00:00.9909009
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdminBooks.aspx
+-----
+Date: 2/24/2014 10:41:13 AM	Available memory: 7908	Used memory: 54	Elapsed Time: 00:00:01.5618438
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdminBooks.aspx
+-----
+Date: 2/24/2014 10:41:13 AM	Available memory: 7906	Used memory: 55	Elapsed Time: 00:00:01.5908409
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdminBooks.cs
+-----
+Date: 2/24/2014 10:41:14 AM	Available memory: 7905	Used memory: 54	Elapsed Time: 00:00:02.2047795
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdminBooks.cs
+-----
+Date: 2/24/2014 10:41:14 AM	Available memory: 7907	Used memory: 54	Elapsed Time: 00:00:02.2987701
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdminMenu.aspx
+-----
+Date: 2/24/2014 10:41:14 AM	Available memory: 7907	Used memory: 54	Elapsed Time: 00:00:02.4847515
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdminMenu.aspx
+-----
+Date: 2/24/2014 10:41:14 AM	Available memory: 7906	Used memory: 55	Elapsed Time: 00:00:02.4967503
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdminMenu.cs
+-----
+Date: 2/24/2014 10:41:14 AM	Available memory: 7905	Used memory: 57	Elapsed Time: 00:00:02.5767423
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdminMenu.cs
+-----
+Date: 2/24/2014 10:41:14 AM	Available memory: 7906	Used memory: 55	Elapsed Time: 00:00:02.6017398
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdvSearch.aspx
+-----
+Date: 2/24/2014 10:41:14 AM	Available memory: 7906	Used memory: 55	Elapsed Time: 00:00:02.6887311
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdvSearch.aspx
+-----
+Date: 2/24/2014 10:41:14 AM	Available memory: 7906	Used memory: 55	Elapsed Time: 00:00:02.7007299
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdvSearch.cs
+-----
+Date: 2/24/2014 10:41:14 AM	Available memory: 7905	Used memory: 56	Elapsed Time: 00:00:02.8177182
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdvSearch.cs
+-----
+Date: 2/24/2014 10:41:14 AM	Available memory: 7904	Used memory: 57	Elapsed Time: 00:00:02.9067093
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\App_Code\AssemblyInfo.cs
+-----
+Date: 2/24/2014 10:41:14 AM	Available memory: 7902	Used memory: 57	Elapsed Time: 00:00:02.9447055
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\App_Code\AssemblyInfo.cs
+-----
+Date: 2/24/2014 10:41:14 AM	Available memory: 7902	Used memory: 57	Elapsed Time: 00:00:03.0036996
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\App_Code\CCUtility.cs
+-----
+Date: 2/24/2014 10:41:15 AM	Available memory: 7902	Used memory: 58	Elapsed Time: 00:00:03.3466653
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\App_Code\CCUtility.cs
+-----
+Date: 2/24/2014 10:41:15 AM	Available memory: 7902	Used memory: 58	Elapsed Time: 00:00:03.4076592
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\App_Code\Global.asax.cs
+-----
+Date: 2/24/2014 10:41:15 AM	Available memory: 7902	Used memory: 56	Elapsed Time: 00:00:03.4606539
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\App_Code\Global.asax.cs
+-----
+Date: 2/24/2014 10:41:15 AM	Available memory: 7904	Used memory: 56	Elapsed Time: 00:00:03.5116488
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\App_Code\Migrated\CCPager_cs_PagingData.cs
+-----
+Date: 2/24/2014 10:41:15 AM	Available memory: 7904	Used memory: 56	Elapsed Time: 00:00:03.5376462
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\App_Code\Migrated\CCPager_cs_PagingData.cs
+-----
+Date: 2/24/2014 10:41:15 AM	Available memory: 7904	Used memory: 56	Elapsed Time: 00:00:03.6126387
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\App_Code\temp\CCUtility.cs
+-----
+Date: 2/24/2014 10:41:15 AM	Available memory: 7904	Used memory: 58	Elapsed Time: 00:00:03.9466053
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\App_Code\temp\CCUtility.cs
+-----
+Date: 2/24/2014 10:41:15 AM	Available memory: 7903	Used memory: 56	Elapsed Time: 00:00:04.0225977
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\App_Code\temp\New Folder\CCUtility.cs
+-----
+Date: 2/24/2014 10:41:16 AM	Available memory: 7905	Used memory: 56	Elapsed Time: 00:00:04.3505649
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\App_Code\temp\New Folder\CCUtility.cs
+-----
+Date: 2/24/2014 10:41:16 AM	Available memory: 7905	Used memory: 57	Elapsed Time: 00:00:04.4165583
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\BookDetail.aspx
+-----
+Date: 2/24/2014 10:41:16 AM	Available memory: 7904	Used memory: 58	Elapsed Time: 00:00:04.5705429
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\BookDetail.aspx
+-----
+Date: 2/24/2014 10:41:16 AM	Available memory: 7903	Used memory: 59	Elapsed Time: 00:00:04.6185381
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\BookDetail.cs
+-----
+Date: 2/24/2014 10:41:17 AM	Available memory: 7902	Used memory: 58	Elapsed Time: 00:00:05.2924707
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\BookDetail.cs
+-----
+Date: 2/24/2014 10:41:17 AM	Available memory: 7902	Used memory: 58	Elapsed Time: 00:00:05.3194680
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\BookMaint.aspx
+-----
+Date: 2/24/2014 10:41:17 AM	Available memory: 7901	Used memory: 60	Elapsed Time: 00:00:05.4294570
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\BookMaint.aspx
+-----
+Date: 2/24/2014 10:41:17 AM	Available memory: 7900	Used memory: 60	Elapsed Time: 00:00:05.5234476
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\BookMaint.cs
+-----
+Date: 2/24/2014 10:41:18 AM	Available memory: 7900	Used memory: 62	Elapsed Time: 00:00:06.0293970
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\BookMaint.cs
+-----
+Date: 2/24/2014 10:41:18 AM	Available memory: 7898	Used memory: 62	Elapsed Time: 00:00:06.1293870
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\Books.aspx
+-----
+Date: 2/24/2014 10:41:18 AM	Available memory: 7898	Used memory: 62	Elapsed Time: 00:00:06.4543545
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\Books.aspx
+-----
+Date: 2/24/2014 10:41:18 AM	Available memory: 7898	Used memory: 62	Elapsed Time: 00:00:06.5303469
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\Books.cs
+-----
+Date: 2/24/2014 10:41:19 AM	Available memory: 7895	Used memory: 64	Elapsed Time: 00:00:07.0622937
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\Books.cs
+-----
+Date: 2/24/2014 10:41:19 AM	Available memory: 7897	Used memory: 62	Elapsed Time: 00:00:07.1372862
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\CardTypesGrid.aspx
+-----
+Date: 2/24/2014 10:41:19 AM	Available memory: 7896	Used memory: 63	Elapsed Time: 00:00:07.2912708
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\CardTypesGrid.aspx
+-----
+Date: 2/24/2014 10:41:19 AM	Available memory: 7896	Used memory: 63	Elapsed Time: 00:00:07.3352664
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\CardTypesGrid.cs
+-----
+Date: 2/24/2014 10:41:19 AM	Available memory: 7897	Used memory: 64	Elapsed Time: 00:00:07.6122387
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\CardTypesGrid.cs
+-----
+Date: 2/24/2014 10:41:19 AM	Available memory: 7896	Used memory: 64	Elapsed Time: 00:00:07.6372362
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\CardTypesRecord.aspx
+-----
+Date: 2/24/2014 10:41:19 AM	Available memory: 7896	Used memory: 64	Elapsed Time: 00:00:07.7282271
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\CardTypesRecord.aspx
+-----
+Date: 2/24/2014 10:41:19 AM	Available memory: 7896	Used memory: 64	Elapsed Time: 00:00:07.7362263
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\CardTypesRecord.cs
+-----
+Date: 2/24/2014 10:41:20 AM	Available memory: 7896	Used memory: 64	Elapsed Time: 00:00:08.0831916
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\CardTypesRecord.cs
+-----
+Date: 2/24/2014 10:41:20 AM	Available memory: 7896	Used memory: 64	Elapsed Time: 00:00:08.1441855
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\CategoriesGrid.aspx
+-----
+Date: 2/24/2014 10:41:20 AM	Available memory: 7895	Used memory: 66	Elapsed Time: 00:00:08.2931706
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\CategoriesGrid.aspx
+-----
+Date: 2/24/2014 10:41:20 AM	Available memory: 7894	Used memory: 67	Elapsed Time: 00:00:08.3471652
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\CategoriesGrid.cs
+-----
+Date: 2/24/2014 10:41:20 AM	Available memory: 7894	Used memory: 66	Elapsed Time: 00:00:08.7721227
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\CategoriesGrid.cs
+-----
+Date: 2/24/2014 10:41:20 AM	Available memory: 7894	Used memory: 66	Elapsed Time: 00:00:08.8501149
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\CategoriesRecord.aspx
+-----
+Date: 2/24/2014 10:41:20 AM	Available memory: 7893	Used memory: 66	Elapsed Time: 00:00:08.9431056
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\CategoriesRecord.aspx
+-----
+Date: 2/24/2014 10:41:20 AM	Available memory: 7893	Used memory: 66	Elapsed Time: 00:00:08.9521047
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\CategoriesRecord.cs
+-----
+Date: 2/24/2014 10:41:21 AM	Available memory: 7894	Used memory: 67	Elapsed Time: 00:00:09.3170682
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\CategoriesRecord.cs
+-----
+Date: 2/24/2014 10:41:21 AM	Available memory: 7893	Used memory: 67	Elapsed Time: 00:00:09.3560643
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\CCPager.ascx
+-----
+Date: 2/24/2014 10:41:21 AM	Available memory: 7893	Used memory: 67	Elapsed Time: 00:00:09.4380561
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\CCPager.ascx
+-----
+Date: 2/24/2014 10:41:21 AM	Available memory: 7893	Used memory: 67	Elapsed Time: 00:00:09.4540545
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\CCPager.cs
+-----
+Date: 2/24/2014 10:41:22 AM	Available memory: 7892	Used memory: 68	Elapsed Time: 00:00:10.6569342
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\CCPager.cs
+-----
+Date: 2/24/2014 10:41:22 AM	Available memory: 7892	Used memory: 68	Elapsed Time: 00:00:10.6649334
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\CxResults.xml
+-----
+Date: 2/24/2014 10:41:22 AM	Available memory: 7892	Used memory: 68	Elapsed Time: 00:00:10.6709328
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\CxResults.xml
+-----
+Date: 2/24/2014 10:41:22 AM	Available memory: 7892	Used memory: 68	Elapsed Time: 00:00:10.7709228
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\Default.aspx
+-----
+Date: 2/24/2014 10:41:23 AM	Available memory: 7892	Used memory: 68	Elapsed Time: 00:00:11.4088590
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\Default.aspx
+-----
+Date: 2/24/2014 10:41:23 AM	Available memory: 7892	Used memory: 68	Elapsed Time: 00:00:11.4748524
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\Default.cs
+-----
+Date: 2/24/2014 10:41:24 AM	Available memory: 7890	Used memory: 71	Elapsed Time: 00:00:12.1387860
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\Default.cs
+-----
+Date: 2/24/2014 10:41:24 AM	Available memory: 7890	Used memory: 71	Elapsed Time: 00:00:12.1767822
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\EditorialCatGrid.aspx
+-----
+Date: 2/24/2014 10:41:24 AM	Available memory: 7890	Used memory: 71	Elapsed Time: 00:00:12.3367662
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\EditorialCatGrid.aspx
+-----
+Date: 2/24/2014 10:41:24 AM	Available memory: 7889	Used memory: 72	Elapsed Time: 00:00:12.3807618
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\EditorialCatGrid.cs
+-----
+Date: 2/24/2014 10:41:24 AM	Available memory: 7889	Used memory: 72	Elapsed Time: 00:00:12.8137185
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\EditorialCatGrid.cs
+-----
+Date: 2/24/2014 10:41:24 AM	Available memory: 7889	Used memory: 72	Elapsed Time: 00:00:12.8857113
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\EditorialCatRecord.aspx
+-----
+Date: 2/24/2014 10:41:24 AM	Available memory: 7888	Used memory: 72	Elapsed Time: 00:00:12.9847014
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\EditorialCatRecord.aspx
+-----
+Date: 2/24/2014 10:41:25 AM	Available memory: 7888	Used memory: 72	Elapsed Time: 00:00:13.0836915
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\EditorialCatRecord.cs
+-----
+Date: 2/24/2014 10:41:25 AM	Available memory: 7888	Used memory: 72	Elapsed Time: 00:00:13.4596539
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\EditorialCatRecord.cs
+-----
+Date: 2/24/2014 10:41:25 AM	Available memory: 7888	Used memory: 72	Elapsed Time: 00:00:13.4836515
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\EditorialsGrid.aspx
+-----
+Date: 2/24/2014 10:41:25 AM	Available memory: 7887	Used memory: 73	Elapsed Time: 00:00:13.6636335
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\EditorialsGrid.aspx
+-----
+Date: 2/24/2014 10:41:25 AM	Available memory: 7887	Used memory: 73	Elapsed Time: 00:00:13.6836315
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\EditorialsGrid.cs
+-----
+Date: 2/24/2014 10:41:26 AM	Available memory: 7887	Used memory: 73	Elapsed Time: 00:00:14.1155883
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\EditorialsGrid.cs
+-----
+Date: 2/24/2014 10:41:26 AM	Available memory: 7887	Used memory: 73	Elapsed Time: 00:00:14.1925806
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\EditorialsRecord.aspx
+-----
+Date: 2/24/2014 10:41:26 AM	Available memory: 7887	Used memory: 74	Elapsed Time: 00:00:14.3075691
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\EditorialsRecord.aspx
+-----
+Date: 2/24/2014 10:41:26 AM	Available memory: 7887	Used memory: 74	Elapsed Time: 00:00:14.3935605
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\EditorialsRecord.cs
+-----
+Date: 2/24/2014 10:41:26 AM	Available memory: 7885	Used memory: 76	Elapsed Time: 00:00:14.8205178
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\EditorialsRecord.cs
+-----
+Date: 2/24/2014 10:41:26 AM	Available memory: 7884	Used memory: 76	Elapsed Time: 00:00:14.9045094
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\Footer.ascx
+-----
+Date: 2/24/2014 10:41:26 AM	Available memory: 7884	Used memory: 76	Elapsed Time: 00:00:15.0054993
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\Footer.ascx
+-----
+Date: 2/24/2014 10:41:27 AM	Available memory: 7884	Used memory: 76	Elapsed Time: 00:00:15.1064892
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\Footer.cs
+-----
+Date: 2/24/2014 10:41:27 AM	Available memory: 7884	Used memory: 76	Elapsed Time: 00:00:15.1894809
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\Footer.cs
+-----
+Date: 2/24/2014 10:41:27 AM	Available memory: 7884	Used memory: 76	Elapsed Time: 00:00:15.2054793
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\Header.ascx
+-----
+Date: 2/24/2014 10:41:27 AM	Available memory: 7884	Used memory: 76	Elapsed Time: 00:00:15.3054693
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\Header.ascx
+-----
+Date: 2/24/2014 10:41:27 AM	Available memory: 7884	Used memory: 76	Elapsed Time: 00:00:15.4074591
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\Header.cs
+-----
+Date: 2/24/2014 10:41:27 AM	Available memory: 7884	Used memory: 76	Elapsed Time: 00:00:15.4574541
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\Header.cs
+-----
+Date: 2/24/2014 10:41:27 AM	Available memory: 7884	Used memory: 76	Elapsed Time: 00:00:15.5074491
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\Login.aspx
+-----
+Date: 2/24/2014 10:41:27 AM	Available memory: 7883	Used memory: 77	Elapsed Time: 00:00:15.5964402
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\Login.aspx
+-----
+Date: 2/24/2014 10:41:27 AM	Available memory: 7883	Used memory: 77	Elapsed Time: 00:00:15.6084390
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\Login.cs
+-----
+Date: 2/24/2014 10:41:27 AM	Available memory: 7883	Used memory: 78	Elapsed Time: 00:00:15.9464052
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\Login.cs
+-----
+Date: 2/24/2014 10:41:27 AM	Available memory: 7882	Used memory: 79	Elapsed Time: 00:00:16.0153983
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\MembersGrid.aspx
+-----
+Date: 2/24/2014 10:41:28 AM	Available memory: 7882	Used memory: 79	Elapsed Time: 00:00:16.2333765
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\MembersGrid.aspx
+-----
+Date: 2/24/2014 10:41:28 AM	Available memory: 7882	Used memory: 79	Elapsed Time: 00:00:16.3183680
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\MembersGrid.cs
+-----
+Date: 2/24/2014 10:41:28 AM	Available memory: 7881	Used memory: 80	Elapsed Time: 00:00:16.8153183
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\MembersGrid.cs
+-----
+Date: 2/24/2014 10:41:28 AM	Available memory: 7881	Used memory: 80	Elapsed Time: 00:00:16.9243074
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\MembersInfo.aspx
+-----
+Date: 2/24/2014 10:41:29 AM	Available memory: 7880	Used memory: 81	Elapsed Time: 00:00:17.1412857
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\MembersInfo.aspx
+-----
+Date: 2/24/2014 10:41:29 AM	Available memory: 7880	Used memory: 80	Elapsed Time: 00:00:17.2282770
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\MembersInfo.cs
+-----
+Date: 2/24/2014 10:41:29 AM	Available memory: 7880	Used memory: 81	Elapsed Time: 00:00:17.7112287
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\MembersInfo.cs
+-----
+Date: 2/24/2014 10:41:29 AM	Available memory: 7880	Used memory: 81	Elapsed Time: 00:00:17.7272271
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\MembersRecord.aspx
+-----
+Date: 2/24/2014 10:41:29 AM	Available memory: 7879	Used memory: 81	Elapsed Time: 00:00:17.8482150
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\MembersRecord.aspx
+-----
+Date: 2/24/2014 10:41:29 AM	Available memory: 7879	Used memory: 81	Elapsed Time: 00:00:17.9312067
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\MembersRecord.cs
+-----
+Date: 2/24/2014 10:41:30 AM	Available memory: 7879	Used memory: 81	Elapsed Time: 00:00:18.5061492
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\MembersRecord.cs
+-----
+Date: 2/24/2014 10:41:30 AM	Available memory: 7879	Used memory: 81	Elapsed Time: 00:00:18.5351463
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\MyInfo.aspx
+-----
+Date: 2/24/2014 10:41:30 AM	Available memory: 7878	Used memory: 83	Elapsed Time: 00:00:18.6431355
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\MyInfo.aspx
+-----
+Date: 2/24/2014 10:41:30 AM	Available memory: 7877	Used memory: 83	Elapsed Time: 00:00:18.7441254
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\MyInfo.cs
+-----
+Date: 2/24/2014 10:41:31 AM	Available memory: 7877	Used memory: 83	Elapsed Time: 00:00:19.1070891
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\MyInfo.cs
+-----
+Date: 2/24/2014 10:41:31 AM	Available memory: 7877	Used memory: 83	Elapsed Time: 00:00:19.1440854
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\OrdersGrid.aspx
+-----
+Date: 2/24/2014 10:41:31 AM	Available memory: 7877	Used memory: 84	Elapsed Time: 00:00:19.3140684
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\OrdersGrid.aspx
+-----
+Date: 2/24/2014 10:41:31 AM	Available memory: 7877	Used memory: 84	Elapsed Time: 00:00:19.3480650
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\OrdersGrid.cs
+-----
+Date: 2/24/2014 10:41:31 AM	Available memory: 7877	Used memory: 84	Elapsed Time: 00:00:19.8680130
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\OrdersGrid.cs
+-----
+Date: 2/24/2014 10:41:31 AM	Available memory: 7877	Used memory: 84	Elapsed Time: 00:00:19.9530045
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\OrdersRecord.aspx
+-----
+Date: 2/24/2014 10:41:32 AM	Available memory: 7875	Used memory: 85	Elapsed Time: 00:00:20.0749923
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\OrdersRecord.aspx
+-----
+Date: 2/24/2014 10:41:32 AM	Available memory: 7875	Used memory: 85	Elapsed Time: 00:00:20.1569841
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\OrdersRecord.cs
+-----
+Date: 2/24/2014 10:41:32 AM	Available memory: 7875	Used memory: 85	Elapsed Time: 00:00:20.6279370
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\OrdersRecord.cs
+-----
+Date: 2/24/2014 10:41:32 AM	Available memory: 7875	Used memory: 85	Elapsed Time: 00:00:20.6569341
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\Registration.aspx
+-----
+Date: 2/24/2014 10:41:32 AM	Available memory: 7875	Used memory: 85	Elapsed Time: 00:00:20.7699228
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\Registration.aspx
+-----
+Date: 2/24/2014 10:41:32 AM	Available memory: 7875	Used memory: 85	Elapsed Time: 00:00:20.8609137
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\Registration.cs
+-----
+Date: 2/24/2014 10:41:33 AM	Available memory: 7875	Used memory: 85	Elapsed Time: 00:00:21.3738624
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\Registration.cs
+-----
+Date: 2/24/2014 10:41:33 AM	Available memory: 7875	Used memory: 85	Elapsed Time: 00:00:21.4738524
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\ShoppingCart.aspx
+-----
+Date: 2/24/2014 10:41:33 AM	Available memory: 7874	Used memory: 87	Elapsed Time: 00:00:21.7078290
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\ShoppingCart.aspx
+-----
+Date: 2/24/2014 10:41:33 AM	Available memory: 7873	Used memory: 88	Elapsed Time: 00:00:21.7708227
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\ShoppingCart.cs
+-----
+Date: 2/24/2014 10:41:34 AM	Available memory: 7873	Used memory: 88	Elapsed Time: 00:00:22.1777820
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\ShoppingCart.cs
+-----
+Date: 2/24/2014 10:41:34 AM	Available memory: 7872	Used memory: 88	Elapsed Time: 00:00:22.2747723
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\ShoppingCartRecord.aspx
+-----
+Date: 2/24/2014 10:41:34 AM	Available memory: 7872	Used memory: 89	Elapsed Time: 00:00:22.3897608
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\ShoppingCartRecord.aspx
+-----
+Date: 2/24/2014 10:41:34 AM	Available memory: 7872	Used memory: 89	Elapsed Time: 00:00:22.4767521
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\ShoppingCartRecord.cs
+-----
+Date: 2/24/2014 10:41:34 AM	Available memory: 7872	Used memory: 89	Elapsed Time: 00:00:22.8207177
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\ShoppingCartRecord.cs
+-----
+Date: 2/24/2014 10:41:34 AM	Available memory: 7872	Used memory: 89	Elapsed Time: 00:00:22.8857112
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\UpgradeLog.XML
+-----
+Date: 2/24/2014 10:41:34 AM	Available memory: 7872	Used memory: 89	Elapsed Time: 00:00:22.8937104
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\UpgradeLog.XML
+-----
+Date: 2/24/2014 10:41:34 AM	Available memory: 7872	Used memory: 89	Elapsed Time: 00:00:22.9877010
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\UpgradeLog2.XML
+-----
+Date: 2/24/2014 10:41:34 AM	Available memory: 7872	Used memory: 89	Elapsed Time: 00:00:22.9957002
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\UpgradeLog2.XML
+-----
+Date: 2/24/2014 10:41:35 AM	Available memory: 7872	Used memory: 89	Elapsed Time: 00:00:23.0906907
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\UpgradeLog3.XML
+-----
+Date: 2/24/2014 10:41:35 AM	Available memory: 7872	Used memory: 89	Elapsed Time: 00:00:23.1006897
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\UpgradeLog3.XML
+-----
+Date: 2/24/2014 10:41:35 AM	Available memory: 7871	Used memory: 90	Elapsed Time: 00:00:23.1926805
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\Web.config
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7871	Used memory: 90	Elapsed Time: 00:00:24.0905907
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\Web.config
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7871	Used memory: 90	Elapsed Time: 00:00:24.1975800
+Starting Resolver
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7871	Used memory: 90	Elapsed Time: 00:00:24.2035794
+Starting ResolveSymbols
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7870	Used memory: 91	Elapsed Time: 00:00:24.3525645
+Enter PostResolveSymbols
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7869	Used memory: 93	Elapsed Time: 00:00:24.3775620
+Enter PostResolve1
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7866	Used memory: 97	Elapsed Time: 00:00:24.4235574
+PostResolve1: System.InvalidCastException: Unable to cast object of type 'Checkmarx.Dom.StringLiteral' to type 'Checkmarx.Dom.IDeclaration'.
+   at Checkmarx.CSParserToDom.CSAST.PostResolve1() in c:\Enterprise\CXEngine\CxEngine Main\Engine\CSharp\Parse\CS\CSAST.cs:line 1777
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7864	Used memory: 98	Elapsed Time: 00:00:24.4335564
+PostResolve1: System.InvalidCastException: Unable to cast object of type 'Checkmarx.Dom.StringLiteral' to type 'Checkmarx.Dom.IDeclaration'.
+   at Checkmarx.CSParserToDom.CSAST.PostResolve1() in c:\Enterprise\CXEngine\CxEngine Main\Engine\CSharp\Parse\CS\CSAST.cs:line 1777
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7864	Used memory: 99	Elapsed Time: 00:00:24.4435554
+PostResolve1: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Checkmarx.CSParserToDom.CSAST.PostResolve1() in c:\Enterprise\CXEngine\CxEngine Main\Engine\CSharp\Parse\CS\CSAST.cs:line 1777
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7863	Used memory: 100	Elapsed Time: 00:00:24.4515546
+PostResolve1: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Checkmarx.CSParserToDom.CSAST.PostResolve1() in c:\Enterprise\CXEngine\CxEngine Main\Engine\CSharp\Parse\CS\CSAST.cs:line 1777
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7863	Used memory: 100	Elapsed Time: 00:00:24.4625535
+PostResolve1: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Checkmarx.CSParserToDom.CSAST.PostResolve1() in c:\Enterprise\CXEngine\CxEngine Main\Engine\CSharp\Parse\CS\CSAST.cs:line 1777
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7862	Used memory: 101	Elapsed Time: 00:00:24.4715526
+PostResolve1: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Checkmarx.CSParserToDom.CSAST.PostResolve1() in c:\Enterprise\CXEngine\CxEngine Main\Engine\CSharp\Parse\CS\CSAST.cs:line 1777
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7861	Used memory: 101	Elapsed Time: 00:00:24.4975500
+PostResolve1: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Checkmarx.CSParserToDom.CSAST.PostResolve1() in c:\Enterprise\CXEngine\CxEngine Main\Engine\CSharp\Parse\CS\CSAST.cs:line 1777
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7861	Used memory: 101	Elapsed Time: 00:00:24.5075490
+PostResolve1: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Checkmarx.CSParserToDom.CSAST.PostResolve1() in c:\Enterprise\CXEngine\CxEngine Main\Engine\CSharp\Parse\CS\CSAST.cs:line 1777
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7861	Used memory: 101	Elapsed Time: 00:00:24.5205477
+PostResolve1: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Checkmarx.CSParserToDom.CSAST.PostResolve1() in c:\Enterprise\CXEngine\CxEngine Main\Engine\CSharp\Parse\CS\CSAST.cs:line 1777
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7861	Used memory: 101	Elapsed Time: 00:00:24.5295468
+PostResolve1: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Checkmarx.CSParserToDom.CSAST.PostResolve1() in c:\Enterprise\CXEngine\CxEngine Main\Engine\CSharp\Parse\CS\CSAST.cs:line 1777
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7861	Used memory: 101	Elapsed Time: 00:00:24.5385459
+PostResolve1: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Checkmarx.CSParserToDom.CSAST.PostResolve1() in c:\Enterprise\CXEngine\CxEngine Main\Engine\CSharp\Parse\CS\CSAST.cs:line 1777
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7861	Used memory: 101	Elapsed Time: 00:00:24.5465451
+PostResolve1: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Checkmarx.CSParserToDom.CSAST.PostResolve1() in c:\Enterprise\CXEngine\CxEngine Main\Engine\CSharp\Parse\CS\CSAST.cs:line 1777
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7861	Used memory: 101	Elapsed Time: 00:00:24.5555442
+PostResolve1: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Checkmarx.CSParserToDom.CSAST.PostResolve1() in c:\Enterprise\CXEngine\CxEngine Main\Engine\CSharp\Parse\CS\CSAST.cs:line 1777
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7861	Used memory: 101	Elapsed Time: 00:00:24.5645433
+PostResolve1: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Checkmarx.CSParserToDom.CSAST.PostResolve1() in c:\Enterprise\CXEngine\CxEngine Main\Engine\CSharp\Parse\CS\CSAST.cs:line 1777
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7861	Used memory: 101	Elapsed Time: 00:00:24.5735424
+PostResolve1: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Checkmarx.CSParserToDom.CSAST.PostResolve1() in c:\Enterprise\CXEngine\CxEngine Main\Engine\CSharp\Parse\CS\CSAST.cs:line 1777
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7861	Used memory: 101	Elapsed Time: 00:00:24.5815416
+PostResolve1: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Checkmarx.CSParserToDom.CSAST.PostResolve1() in c:\Enterprise\CXEngine\CxEngine Main\Engine\CSharp\Parse\CS\CSAST.cs:line 1777
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7861	Used memory: 101	Elapsed Time: 00:00:24.5915406
+PostResolve1: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Checkmarx.CSParserToDom.CSAST.PostResolve1() in c:\Enterprise\CXEngine\CxEngine Main\Engine\CSharp\Parse\CS\CSAST.cs:line 1777
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7861	Used memory: 101	Elapsed Time: 00:00:24.6005397
+PostResolve1: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Checkmarx.CSParserToDom.CSAST.PostResolve1() in c:\Enterprise\CXEngine\CxEngine Main\Engine\CSharp\Parse\CS\CSAST.cs:line 1777
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7861	Used memory: 101	Elapsed Time: 00:00:24.6085389
+PostResolve1: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Checkmarx.CSParserToDom.CSAST.PostResolve1() in c:\Enterprise\CXEngine\CxEngine Main\Engine\CSharp\Parse\CS\CSAST.cs:line 1777
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7861	Used memory: 101	Elapsed Time: 00:00:24.6185379
+PostResolve1: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Checkmarx.CSParserToDom.CSAST.PostResolve1() in c:\Enterprise\CXEngine\CxEngine Main\Engine\CSharp\Parse\CS\CSAST.cs:line 1777
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7861	Used memory: 101	Elapsed Time: 00:00:24.6265371
+PostResolve1: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Checkmarx.CSParserToDom.CSAST.PostResolve1() in c:\Enterprise\CXEngine\CxEngine Main\Engine\CSharp\Parse\CS\CSAST.cs:line 1777
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7861	Used memory: 101	Elapsed Time: 00:00:24.6355362
+PostResolve1: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Checkmarx.CSParserToDom.CSAST.PostResolve1() in c:\Enterprise\CXEngine\CxEngine Main\Engine\CSharp\Parse\CS\CSAST.cs:line 1777
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7861	Used memory: 101	Elapsed Time: 00:00:24.6445353
+PostResolve1: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Checkmarx.CSParserToDom.CSAST.PostResolve1() in c:\Enterprise\CXEngine\CxEngine Main\Engine\CSharp\Parse\CS\CSAST.cs:line 1777
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7861	Used memory: 101	Elapsed Time: 00:00:24.6535344
+PostResolve1: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Checkmarx.CSParserToDom.CSAST.PostResolve1() in c:\Enterprise\CXEngine\CxEngine Main\Engine\CSharp\Parse\CS\CSAST.cs:line 1777
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7861	Used memory: 101	Elapsed Time: 00:00:24.6625335
+PostResolve1: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Checkmarx.CSParserToDom.CSAST.PostResolve1() in c:\Enterprise\CXEngine\CxEngine Main\Engine\CSharp\Parse\CS\CSAST.cs:line 1777
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7861	Used memory: 101	Elapsed Time: 00:00:24.6715326
+PostResolve1: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Checkmarx.CSParserToDom.CSAST.PostResolve1() in c:\Enterprise\CXEngine\CxEngine Main\Engine\CSharp\Parse\CS\CSAST.cs:line 1777
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7861	Used memory: 102	Elapsed Time: 00:00:24.6805317
+PostResolve1: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Checkmarx.CSParserToDom.CSAST.PostResolve1() in c:\Enterprise\CXEngine\CxEngine Main\Engine\CSharp\Parse\CS\CSAST.cs:line 1777
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7861	Used memory: 102	Elapsed Time: 00:00:24.6895308
+PostResolve1: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Checkmarx.CSParserToDom.CSAST.PostResolve1() in c:\Enterprise\CXEngine\CxEngine Main\Engine\CSharp\Parse\CS\CSAST.cs:line 1777
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7860	Used memory: 103	Elapsed Time: 00:00:24.6975300
+PostResolve1: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Checkmarx.CSParserToDom.CSAST.PostResolve1() in c:\Enterprise\CXEngine\CxEngine Main\Engine\CSharp\Parse\CS\CSAST.cs:line 1777
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7859	Used memory: 104	Elapsed Time: 00:00:24.7065291
+PostResolve1: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Checkmarx.CSParserToDom.CSAST.PostResolve1() in c:\Enterprise\CXEngine\CxEngine Main\Engine\CSharp\Parse\CS\CSAST.cs:line 1777
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7859	Used memory: 104	Elapsed Time: 00:00:24.7145283
+PostResolve1: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Checkmarx.CSParserToDom.CSAST.PostResolve1() in c:\Enterprise\CXEngine\CxEngine Main\Engine\CSharp\Parse\CS\CSAST.cs:line 1777
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7858	Used memory: 105	Elapsed Time: 00:00:24.7235274
+PostResolve1: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Checkmarx.CSParserToDom.CSAST.PostResolve1() in c:\Enterprise\CXEngine\CxEngine Main\Engine\CSharp\Parse\CS\CSAST.cs:line 1777
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7857	Used memory: 106	Elapsed Time: 00:00:24.7335264
+PostResolve1: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Checkmarx.CSParserToDom.CSAST.PostResolve1() in c:\Enterprise\CXEngine\CxEngine Main\Engine\CSharp\Parse\CS\CSAST.cs:line 1777
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7857	Used memory: 106	Elapsed Time: 00:00:24.7425255
+PostResolve1: System.InvalidCastException: Unable to cast object of type 'Checkmarx.Dom.StringLiteral' to type 'Checkmarx.Dom.IDeclaration'.
+   at Checkmarx.CSParserToDom.CSAST.PostResolve1() in c:\Enterprise\CXEngine\CxEngine Main\Engine\CSharp\Parse\CS\CSAST.cs:line 1777
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7856	Used memory: 106	Elapsed Time: 00:00:24.7525245
+PostResolve1: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Checkmarx.CSParserToDom.CSAST.PostResolve1() in c:\Enterprise\CXEngine\CxEngine Main\Engine\CSharp\Parse\CS\CSAST.cs:line 1777
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7856	Used memory: 107	Elapsed Time: 00:00:24.7635234
+PostResolve1: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Checkmarx.CSParserToDom.CSAST.PostResolve1() in c:\Enterprise\CXEngine\CxEngine Main\Engine\CSharp\Parse\CS\CSAST.cs:line 1777
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7855	Used memory: 108	Elapsed Time: 00:00:24.7725225
+PostResolve1: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Checkmarx.CSParserToDom.CSAST.PostResolve1() in c:\Enterprise\CXEngine\CxEngine Main\Engine\CSharp\Parse\CS\CSAST.cs:line 1777
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7854	Used memory: 109	Elapsed Time: 00:00:24.7815216
+PostResolve1: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Checkmarx.CSParserToDom.CSAST.PostResolve1() in c:\Enterprise\CXEngine\CxEngine Main\Engine\CSharp\Parse\CS\CSAST.cs:line 1777
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7853	Used memory: 107	Elapsed Time: 00:00:24.7945203
+PostResolve1: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Checkmarx.CSParserToDom.CSAST.PostResolve1() in c:\Enterprise\CXEngine\CxEngine Main\Engine\CSharp\Parse\CS\CSAST.cs:line 1777
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7855	Used memory: 107	Elapsed Time: 00:00:24.8045193
+PostResolve1: System.InvalidCastException: Unable to cast object of type 'Checkmarx.Dom.StringLiteral' to type 'Checkmarx.Dom.IDeclaration'.
+   at Checkmarx.CSParserToDom.CSAST.PostResolve1() in c:\Enterprise\CXEngine\CxEngine Main\Engine\CSharp\Parse\CS\CSAST.cs:line 1777
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7855	Used memory: 107	Elapsed Time: 00:00:24.8195178
+PostResolve1: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Checkmarx.CSParserToDom.CSAST.PostResolve1() in c:\Enterprise\CXEngine\CxEngine Main\Engine\CSharp\Parse\CS\CSAST.cs:line 1777
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7855	Used memory: 107	Elapsed Time: 00:00:24.8285169
+PostResolve1: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Checkmarx.CSParserToDom.CSAST.PostResolve1() in c:\Enterprise\CXEngine\CxEngine Main\Engine\CSharp\Parse\CS\CSAST.cs:line 1777
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7855	Used memory: 107	Elapsed Time: 00:00:24.8375160
+PostResolve1: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Checkmarx.CSParserToDom.CSAST.PostResolve1() in c:\Enterprise\CXEngine\CxEngine Main\Engine\CSharp\Parse\CS\CSAST.cs:line 1777
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7855	Used memory: 107	Elapsed Time: 00:00:24.8455152
+PostResolve1: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Checkmarx.CSParserToDom.CSAST.PostResolve1() in c:\Enterprise\CXEngine\CxEngine Main\Engine\CSharp\Parse\CS\CSAST.cs:line 1777
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7855	Used memory: 107	Elapsed Time: 00:00:24.8555142
+PostResolve1: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Checkmarx.CSParserToDom.CSAST.PostResolve1() in c:\Enterprise\CXEngine\CxEngine Main\Engine\CSharp\Parse\CS\CSAST.cs:line 1777
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7855	Used memory: 107	Elapsed Time: 00:00:24.8675130
+PostResolve1: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Checkmarx.CSParserToDom.CSAST.PostResolve1() in c:\Enterprise\CXEngine\CxEngine Main\Engine\CSharp\Parse\CS\CSAST.cs:line 1777
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7855	Used memory: 107	Elapsed Time: 00:00:24.8755122
+PostResolve1: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Checkmarx.CSParserToDom.CSAST.PostResolve1() in c:\Enterprise\CXEngine\CxEngine Main\Engine\CSharp\Parse\CS\CSAST.cs:line 1777
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7855	Used memory: 107	Elapsed Time: 00:00:24.8845113
+PostResolve1: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Checkmarx.CSParserToDom.CSAST.PostResolve1() in c:\Enterprise\CXEngine\CxEngine Main\Engine\CSharp\Parse\CS\CSAST.cs:line 1777
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7855	Used memory: 107	Elapsed Time: 00:00:24.8955102
+PostResolve1: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Checkmarx.CSParserToDom.CSAST.PostResolve1() in c:\Enterprise\CXEngine\CxEngine Main\Engine\CSharp\Parse\CS\CSAST.cs:line 1777
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7855	Used memory: 107	Elapsed Time: 00:00:24.9045093
+PostResolve1: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Checkmarx.CSParserToDom.CSAST.PostResolve1() in c:\Enterprise\CXEngine\CxEngine Main\Engine\CSharp\Parse\CS\CSAST.cs:line 1777
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7855	Used memory: 107	Elapsed Time: 00:00:24.9145083
+PostResolve1: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Checkmarx.CSParserToDom.CSAST.PostResolve1() in c:\Enterprise\CXEngine\CxEngine Main\Engine\CSharp\Parse\CS\CSAST.cs:line 1777
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7855	Used memory: 107	Elapsed Time: 00:00:24.9245073
+PostResolve1: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Checkmarx.CSParserToDom.CSAST.PostResolve1() in c:\Enterprise\CXEngine\CxEngine Main\Engine\CSharp\Parse\CS\CSAST.cs:line 1777
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7855	Used memory: 107	Elapsed Time: 00:00:24.9335064
+PostResolve1: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Checkmarx.CSParserToDom.CSAST.PostResolve1() in c:\Enterprise\CXEngine\CxEngine Main\Engine\CSharp\Parse\CS\CSAST.cs:line 1777
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7855	Used memory: 107	Elapsed Time: 00:00:24.9425055
+PostResolve1: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Checkmarx.CSParserToDom.CSAST.PostResolve1() in c:\Enterprise\CXEngine\CxEngine Main\Engine\CSharp\Parse\CS\CSAST.cs:line 1777
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7855	Used memory: 107	Elapsed Time: 00:00:24.9525045
+PostResolve1: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Checkmarx.CSParserToDom.CSAST.PostResolve1() in c:\Enterprise\CXEngine\CxEngine Main\Engine\CSharp\Parse\CS\CSAST.cs:line 1777
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7855	Used memory: 107	Elapsed Time: 00:00:24.9625035
+PostResolve1: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Checkmarx.CSParserToDom.CSAST.PostResolve1() in c:\Enterprise\CXEngine\CxEngine Main\Engine\CSharp\Parse\CS\CSAST.cs:line 1777
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7855	Used memory: 107	Elapsed Time: 00:00:24.9715026
+PostResolve1: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Checkmarx.CSParserToDom.CSAST.PostResolve1() in c:\Enterprise\CXEngine\CxEngine Main\Engine\CSharp\Parse\CS\CSAST.cs:line 1777
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7855	Used memory: 107	Elapsed Time: 00:00:24.9925005
+Wxit PostResolve1
+-----
+Date: 2/24/2014 10:41:36 AM	Available memory: 7854	Used memory: 109	Elapsed Time: 00:00:25.0184979
+Enter PostResolve2
+-----
+Date: 2/24/2014 10:41:37 AM	Available memory: 7854	Used memory: 108	Elapsed Time: 00:00:25.1454852
+Exit PostResolve2
+-----
+Date: 2/24/2014 10:41:37 AM	Available memory: 7854	Used memory: 109	Elapsed Time: 00:00:25.1614836
+Enter PostResolve3
+-----
+Date: 2/24/2014 10:41:37 AM	Available memory: 7854	Used memory: 108	Elapsed Time: 00:00:25.1694828
+Enter SolveAll
+-----
+Date: 2/24/2014 10:41:37 AM	Available memory: 7855	Used memory: 107	Elapsed Time: 00:00:25.2694728
+Exit SolveAll
+-----
+Date: 2/24/2014 10:41:37 AM	Available memory: 7854	Used memory: 108	Elapsed Time: 00:00:25.3624635
+Exit PostResolve3
+-----
+Date: 2/24/2014 10:41:37 AM	Available memory: 7853	Used memory: 109	Elapsed Time: 00:00:25.3794618
+Enter PostResolve4
+-----
+Date: 2/24/2014 10:41:37 AM	Available memory: 7853	Used memory: 109	Elapsed Time: 00:00:25.3854612
+Exit PostResolveSymbols
+-----
+Date: 2/24/2014 10:41:37 AM	Available memory: 7873	Used memory: 89	Elapsed Time: 00:00:25.4664531
+Exit ResolveSymbols
+-----
+Date: 2/24/2014 10:41:37 AM	Available memory: 7873	Used memory: 89	Elapsed Time: 00:00:25.5254472
+Ending ResolveSymbols
+-----
+Date: 2/24/2014 10:41:37 AM	Available memory: 7873	Used memory: 89	Elapsed Time: 00:00:25.5314466
+Starting ResolveExpressions
+-----
+Date: 2/24/2014 10:41:37 AM	Available memory: 7872	Used memory: 90	Elapsed Time: 00:00:25.5674430
+Ending ResolveExpressions
+-----
+Date: 2/24/2014 10:41:37 AM	Available memory: 7872	Used memory: 90	Elapsed Time: 00:00:25.5724425
+Ending Resolver
+-----
+Date: 2/24/2014 10:41:37 AM	Available memory: 7872	Used memory: 90	Elapsed Time: 00:00:25.5784419
+End Parsing CSHARP
+-----
+Date: 2/24/2014 10:41:37 AM	Available memory: 7872	Used memory: 90	Elapsed Time: 00:00:25.5924405
+Begin Parsing JAVASCRIPT
+-----
+Date: 2/24/2014 10:41:37 AM	Available memory: 7871	Used memory: 90	Elapsed Time: 00:00:25.7114286
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdminBooks.aspx
+-----
+Date: 2/24/2014 10:41:37 AM	Available memory: 7870	Used memory: 92	Elapsed Time: 00:00:25.9983999
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdminBooks.aspx
+-----
+Date: 2/24/2014 10:41:37 AM	Available memory: 7870	Used memory: 92	Elapsed Time: 00:00:26.0143983
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdminMenu.aspx
+-----
+Date: 2/24/2014 10:41:38 AM	Available memory: 7870	Used memory: 92	Elapsed Time: 00:00:26.0653932
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdminMenu.aspx
+-----
+Date: 2/24/2014 10:41:38 AM	Available memory: 7870	Used memory: 92	Elapsed Time: 00:00:26.1193878
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdvSearch.aspx
+-----
+Date: 2/24/2014 10:41:38 AM	Available memory: 7869	Used memory: 94	Elapsed Time: 00:00:26.1483849
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdvSearch.aspx
+-----
+Date: 2/24/2014 10:41:38 AM	Available memory: 7868	Used memory: 95	Elapsed Time: 00:00:26.2333764
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\BookDetail.aspx
+-----
+Date: 2/24/2014 10:41:38 AM	Available memory: 7867	Used memory: 95	Elapsed Time: 00:00:26.2693728
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\BookDetail.aspx
+-----
+Date: 2/24/2014 10:41:38 AM	Available memory: 7867	Used memory: 95	Elapsed Time: 00:00:26.3363661
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\BookMaint.aspx
+-----
+Date: 2/24/2014 10:41:38 AM	Available memory: 7866	Used memory: 96	Elapsed Time: 00:00:26.4403557
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\BookMaint.aspx
+-----
+Date: 2/24/2014 10:41:38 AM	Available memory: 7866	Used memory: 95	Elapsed Time: 00:00:26.5403457
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\Books.aspx
+-----
+Date: 2/24/2014 10:41:38 AM	Available memory: 7866	Used memory: 96	Elapsed Time: 00:00:26.5673430
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\Books.aspx
+-----
+Date: 2/24/2014 10:41:38 AM	Available memory: 7866	Used memory: 97	Elapsed Time: 00:00:26.6453352
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\CardTypesGrid.aspx
+-----
+Date: 2/24/2014 10:41:38 AM	Available memory: 7865	Used memory: 97	Elapsed Time: 00:00:26.6803317
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\CardTypesGrid.aspx
+-----
+Date: 2/24/2014 10:41:38 AM	Available memory: 7864	Used memory: 98	Elapsed Time: 00:00:26.7493248
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\CardTypesRecord.aspx
+-----
+Date: 2/24/2014 10:41:38 AM	Available memory: 7864	Used memory: 99	Elapsed Time: 00:00:26.7733224
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\CardTypesRecord.aspx
+-----
+Date: 2/24/2014 10:41:38 AM	Available memory: 7863	Used memory: 99	Elapsed Time: 00:00:26.8523145
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\CategoriesGrid.aspx
+-----
+Date: 2/24/2014 10:41:38 AM	Available memory: 7862	Used memory: 100	Elapsed Time: 00:00:26.8853112
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\CategoriesGrid.aspx
+-----
+Date: 2/24/2014 10:41:38 AM	Available memory: 7862	Used memory: 101	Elapsed Time: 00:00:26.9543043
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\CategoriesRecord.aspx
+-----
+Date: 2/24/2014 10:41:38 AM	Available memory: 7861	Used memory: 101	Elapsed Time: 00:00:26.9753022
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\CategoriesRecord.aspx
+-----
+Date: 2/24/2014 10:41:39 AM	Available memory: 7860	Used memory: 102	Elapsed Time: 00:00:27.0542943
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\CCPager.ascx
+-----
+Date: 2/24/2014 10:41:39 AM	Available memory: 7860	Used memory: 103	Elapsed Time: 00:00:27.0882909
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\CCPager.ascx
+-----
+Date: 2/24/2014 10:41:39 AM	Available memory: 7859	Used memory: 104	Elapsed Time: 00:00:27.1632834
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\Default.aspx
+-----
+Date: 2/24/2014 10:41:39 AM	Available memory: 7858	Used memory: 104	Elapsed Time: 00:00:27.2032794
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\Default.aspx
+-----
+Date: 2/24/2014 10:41:39 AM	Available memory: 7857	Used memory: 105	Elapsed Time: 00:00:27.2662731
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\EditorialCatGrid.aspx
+-----
+Date: 2/24/2014 10:41:39 AM	Available memory: 7857	Used memory: 106	Elapsed Time: 00:00:27.2942703
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\EditorialCatGrid.aspx
+-----
+Date: 2/24/2014 10:41:39 AM	Available memory: 7856	Used memory: 106	Elapsed Time: 00:00:27.3662631
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\EditorialCatRecord.aspx
+-----
+Date: 2/24/2014 10:41:39 AM	Available memory: 7855	Used memory: 107	Elapsed Time: 00:00:27.3872610
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\EditorialCatRecord.aspx
+-----
+Date: 2/24/2014 10:41:39 AM	Available memory: 7855	Used memory: 107	Elapsed Time: 00:00:27.4732524
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\EditorialsGrid.aspx
+-----
+Date: 2/24/2014 10:41:39 AM	Available memory: 7855	Used memory: 107	Elapsed Time: 00:00:27.5132484
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\EditorialsGrid.aspx
+-----
+Date: 2/24/2014 10:41:39 AM	Available memory: 7855	Used memory: 107	Elapsed Time: 00:00:27.5752422
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\EditorialsRecord.aspx
+-----
+Date: 2/24/2014 10:41:39 AM	Available memory: 7855	Used memory: 107	Elapsed Time: 00:00:27.5992398
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\EditorialsRecord.aspx
+-----
+Date: 2/24/2014 10:41:39 AM	Available memory: 7855	Used memory: 107	Elapsed Time: 00:00:27.6752322
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\Footer.ascx
+-----
+Date: 2/24/2014 10:41:39 AM	Available memory: 7855	Used memory: 107	Elapsed Time: 00:00:27.6952302
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\Footer.ascx
+-----
+Date: 2/24/2014 10:41:39 AM	Available memory: 7855	Used memory: 107	Elapsed Time: 00:00:27.7832214
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\Header.ascx
+-----
+Date: 2/24/2014 10:41:39 AM	Available memory: 7855	Used memory: 107	Elapsed Time: 00:00:27.8042193
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\Header.ascx
+-----
+Date: 2/24/2014 10:41:39 AM	Available memory: 7855	Used memory: 107	Elapsed Time: 00:00:27.8842113
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\Login.aspx
+-----
+Date: 2/24/2014 10:41:39 AM	Available memory: 7855	Used memory: 107	Elapsed Time: 00:00:27.9062091
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\Login.aspx
+-----
+Date: 2/24/2014 10:41:39 AM	Available memory: 7855	Used memory: 107	Elapsed Time: 00:00:27.9882009
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\MembersGrid.aspx
+-----
+Date: 2/24/2014 10:41:40 AM	Available memory: 7855	Used memory: 107	Elapsed Time: 00:00:28.0421955
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\MembersGrid.aspx
+-----
+Date: 2/24/2014 10:41:40 AM	Available memory: 7855	Used memory: 107	Elapsed Time: 00:00:28.0901907
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\MembersInfo.aspx
+-----
+Date: 2/24/2014 10:41:40 AM	Available memory: 7855	Used memory: 107	Elapsed Time: 00:00:28.1351862
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\MembersInfo.aspx
+-----
+Date: 2/24/2014 10:41:40 AM	Available memory: 7855	Used memory: 107	Elapsed Time: 00:00:28.1921805
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\MembersRecord.aspx
+-----
+Date: 2/24/2014 10:41:40 AM	Available memory: 7855	Used memory: 107	Elapsed Time: 00:00:28.2461751
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\MembersRecord.aspx
+-----
+Date: 2/24/2014 10:41:40 AM	Available memory: 7855	Used memory: 107	Elapsed Time: 00:00:28.2961701
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\MyInfo.aspx
+-----
+Date: 2/24/2014 10:41:40 AM	Available memory: 7855	Used memory: 107	Elapsed Time: 00:00:28.3241673
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\MyInfo.aspx
+-----
+Date: 2/24/2014 10:41:40 AM	Available memory: 7855	Used memory: 107	Elapsed Time: 00:00:28.3991598
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\OrdersGrid.aspx
+-----
+Date: 2/24/2014 10:41:40 AM	Available memory: 7855	Used memory: 107	Elapsed Time: 00:00:28.4371560
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\OrdersGrid.aspx
+-----
+Date: 2/24/2014 10:41:40 AM	Available memory: 7855	Used memory: 107	Elapsed Time: 00:00:28.5021495
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\OrdersRecord.aspx
+-----
+Date: 2/24/2014 10:41:40 AM	Available memory: 7855	Used memory: 107	Elapsed Time: 00:00:28.5341463
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\OrdersRecord.aspx
+-----
+Date: 2/24/2014 10:41:40 AM	Available memory: 7855	Used memory: 107	Elapsed Time: 00:00:28.6051392
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\Registration.aspx
+-----
+Date: 2/24/2014 10:41:40 AM	Available memory: 7855	Used memory: 107	Elapsed Time: 00:00:28.6351362
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\Registration.aspx
+-----
+Date: 2/24/2014 10:41:40 AM	Available memory: 7855	Used memory: 107	Elapsed Time: 00:00:28.7091288
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\ShoppingCart.aspx
+-----
+Date: 2/24/2014 10:41:40 AM	Available memory: 7855	Used memory: 107	Elapsed Time: 00:00:28.7461251
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\ShoppingCart.aspx
+-----
+Date: 2/24/2014 10:41:40 AM	Available memory: 7855	Used memory: 107	Elapsed Time: 00:00:28.8151182
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\ShoppingCartRecord.aspx
+-----
+Date: 2/24/2014 10:41:40 AM	Available memory: 7857	Used memory: 105	Elapsed Time: 00:00:28.8481149
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\ShoppingCartRecord.aspx
+-----
+Date: 2/24/2014 10:41:40 AM	Available memory: 7858	Used memory: 105	Elapsed Time: 00:00:28.9591038
+Finish collect ASTs
+-----
+Date: 2/24/2014 10:41:40 AM	Available memory: 7858	Used memory: 106	Elapsed Time: 00:00:28.9951002
+Finish Covert ASTs
+-----
+Date: 2/24/2014 10:41:40 AM	Available memory: 7858	Used memory: 106	Elapsed Time: 00:00:29.0170980
+Finish Post ASTs
+-----
+Date: 2/24/2014 10:41:41 AM	Available memory: 7858	Used memory: 106	Elapsed Time: 00:00:29.0270970
+Handling AST2DOM for file: \\storage\qa\projects_new\csharp\1_under_70k\bookstore_net_17588_lines\adminbooks.aspx
+-----
+Date: 2/24/2014 10:41:41 AM	Available memory: 7857	Used memory: 106	Elapsed Time: 00:00:29.1350862
+Handling AST2DOM for file: \\storage\qa\projects_new\csharp\1_under_70k\bookstore_net_17588_lines\adminmenu.aspx
+-----
+Date: 2/24/2014 10:41:41 AM	Available memory: 7857	Used memory: 106	Elapsed Time: 00:00:29.2460751
+Handling AST2DOM for file: \\storage\qa\projects_new\csharp\1_under_70k\bookstore_net_17588_lines\advsearch.aspx
+-----
+Date: 2/24/2014 10:41:41 AM	Available memory: 7857	Used memory: 106	Elapsed Time: 00:00:29.3540643
+Handling AST2DOM for file: \\storage\qa\projects_new\csharp\1_under_70k\bookstore_net_17588_lines\bookdetail.aspx
+-----
+Date: 2/24/2014 10:41:41 AM	Available memory: 7857	Used memory: 106	Elapsed Time: 00:00:29.4630534
+Handling AST2DOM for file: \\storage\qa\projects_new\csharp\1_under_70k\bookstore_net_17588_lines\bookmaint.aspx
+-----
+Date: 2/24/2014 10:41:41 AM	Available memory: 7857	Used memory: 106	Elapsed Time: 00:00:29.5710426
+Handling AST2DOM for file: \\storage\qa\projects_new\csharp\1_under_70k\bookstore_net_17588_lines\books.aspx
+-----
+Date: 2/24/2014 10:41:41 AM	Available memory: 7857	Used memory: 106	Elapsed Time: 00:00:29.6800317
+Handling AST2DOM for file: \\storage\qa\projects_new\csharp\1_under_70k\bookstore_net_17588_lines\cardtypesgrid.aspx
+-----
+Date: 2/24/2014 10:41:41 AM	Available memory: 7857	Used memory: 106	Elapsed Time: 00:00:29.7890208
+Handling AST2DOM for file: \\storage\qa\projects_new\csharp\1_under_70k\bookstore_net_17588_lines\cardtypesrecord.aspx
+-----
+Date: 2/24/2014 10:41:41 AM	Available memory: 7856	Used memory: 106	Elapsed Time: 00:00:29.9000097
+Handling AST2DOM for file: \\storage\qa\projects_new\csharp\1_under_70k\bookstore_net_17588_lines\categoriesgrid.aspx
+-----
+Date: 2/24/2014 10:41:41 AM	Available memory: 7857	Used memory: 106	Elapsed Time: 00:00:30.0079989
+Handling AST2DOM for file: \\storage\qa\projects_new\csharp\1_under_70k\bookstore_net_17588_lines\categoriesrecord.aspx
+-----
+Date: 2/24/2014 10:41:42 AM	Available memory: 7857	Used memory: 106	Elapsed Time: 00:00:30.1169880
+Handling AST2DOM for file: \\storage\qa\projects_new\csharp\1_under_70k\bookstore_net_17588_lines\ccpager.ascx
+-----
+Date: 2/24/2014 10:41:42 AM	Available memory: 7857	Used memory: 106	Elapsed Time: 00:00:30.2269770
+Handling AST2DOM for file: \\storage\qa\projects_new\csharp\1_under_70k\bookstore_net_17588_lines\default.aspx
+-----
+Date: 2/24/2014 10:41:42 AM	Available memory: 7857	Used memory: 106	Elapsed Time: 00:00:30.3359661
+Handling AST2DOM for file: \\storage\qa\projects_new\csharp\1_under_70k\bookstore_net_17588_lines\editorialcatgrid.aspx
+-----
+Date: 2/24/2014 10:41:42 AM	Available memory: 7857	Used memory: 106	Elapsed Time: 00:00:30.4449552
+Handling AST2DOM for file: \\storage\qa\projects_new\csharp\1_under_70k\bookstore_net_17588_lines\editorialcatrecord.aspx
+-----
+Date: 2/24/2014 10:41:42 AM	Available memory: 7857	Used memory: 106	Elapsed Time: 00:00:30.5539443
+Handling AST2DOM for file: \\storage\qa\projects_new\csharp\1_under_70k\bookstore_net_17588_lines\editorialsgrid.aspx
+-----
+Date: 2/24/2014 10:41:42 AM	Available memory: 7857	Used memory: 106	Elapsed Time: 00:00:30.6619335
+Handling AST2DOM for file: \\storage\qa\projects_new\csharp\1_under_70k\bookstore_net_17588_lines\editorialsrecord.aspx
+-----
+Date: 2/24/2014 10:41:42 AM	Available memory: 7857	Used memory: 106	Elapsed Time: 00:00:30.7729224
+Handling AST2DOM for file: \\storage\qa\projects_new\csharp\1_under_70k\bookstore_net_17588_lines\footer.ascx
+-----
+Date: 2/24/2014 10:41:42 AM	Available memory: 7857	Used memory: 106	Elapsed Time: 00:00:30.8789118
+Handling AST2DOM for file: \\storage\qa\projects_new\csharp\1_under_70k\bookstore_net_17588_lines\header.ascx
+-----
+Date: 2/24/2014 10:41:42 AM	Available memory: 7857	Used memory: 106	Elapsed Time: 00:00:30.9869010
+Handling AST2DOM for file: \\storage\qa\projects_new\csharp\1_under_70k\bookstore_net_17588_lines\login.aspx
+-----
+Date: 2/24/2014 10:41:43 AM	Available memory: 7857	Used memory: 106	Elapsed Time: 00:00:31.0958901
+Handling AST2DOM for file: \\storage\qa\projects_new\csharp\1_under_70k\bookstore_net_17588_lines\membersgrid.aspx
+-----
+Date: 2/24/2014 10:41:43 AM	Available memory: 7857	Used memory: 106	Elapsed Time: 00:00:31.2058791
+Handling AST2DOM for file: \\storage\qa\projects_new\csharp\1_under_70k\bookstore_net_17588_lines\membersinfo.aspx
+-----
+Date: 2/24/2014 10:41:43 AM	Available memory: 7857	Used memory: 107	Elapsed Time: 00:00:31.3148682
+Handling AST2DOM for file: \\storage\qa\projects_new\csharp\1_under_70k\bookstore_net_17588_lines\membersrecord.aspx
+-----
+Date: 2/24/2014 10:41:43 AM	Available memory: 7856	Used memory: 107	Elapsed Time: 00:00:31.4238573
+Handling AST2DOM for file: \\storage\qa\projects_new\csharp\1_under_70k\bookstore_net_17588_lines\myinfo.aspx
+-----
+Date: 2/24/2014 10:41:43 AM	Available memory: 7856	Used memory: 107	Elapsed Time: 00:00:31.5348462
+Handling AST2DOM for file: \\storage\qa\projects_new\csharp\1_under_70k\bookstore_net_17588_lines\ordersgrid.aspx
+-----
+Date: 2/24/2014 10:41:43 AM	Available memory: 7856	Used memory: 107	Elapsed Time: 00:00:31.6478349
+Handling AST2DOM for file: \\storage\qa\projects_new\csharp\1_under_70k\bookstore_net_17588_lines\ordersrecord.aspx
+-----
+Date: 2/24/2014 10:41:43 AM	Available memory: 7856	Used memory: 107	Elapsed Time: 00:00:31.7568240
+Handling AST2DOM for file: \\storage\qa\projects_new\csharp\1_under_70k\bookstore_net_17588_lines\registration.aspx
+-----
+Date: 2/24/2014 10:41:43 AM	Available memory: 7856	Used memory: 107	Elapsed Time: 00:00:31.8678129
+Handling AST2DOM for file: \\storage\qa\projects_new\csharp\1_under_70k\bookstore_net_17588_lines\shoppingcart.aspx
+-----
+Date: 2/24/2014 10:41:43 AM	Available memory: 7856	Used memory: 107	Elapsed Time: 00:00:31.9758021
+Handling AST2DOM for file: \\storage\qa\projects_new\csharp\1_under_70k\bookstore_net_17588_lines\shoppingcartrecord.aspx
+-----
+Date: 2/24/2014 10:41:44 AM	Available memory: 7856	Used memory: 107	Elapsed Time: 00:00:32.0837913
+Finish AST to DOM
+-----
+Date: 2/24/2014 10:41:44 AM	Available memory: 7867	Used memory: 97	Elapsed Time: 00:00:32.1457851
+enter ResolveSymbols
+-----
+Date: 2/24/2014 10:41:44 AM	Available memory: 7866	Used memory: 97	Elapsed Time: 00:00:32.1887808
+enter PostResolve1
+-----
+Date: 2/24/2014 10:41:44 AM	Available memory: 7866	Used memory: 97	Elapsed Time: 00:00:32.2027794
+exit PostResolve1
+-----
+Date: 2/24/2014 10:41:44 AM	Available memory: 7866	Used memory: 97	Elapsed Time: 00:00:32.2237773
+enter PostResolve2
+-----
+Date: 2/24/2014 10:41:44 AM	Available memory: 7867	Used memory: 97	Elapsed Time: 00:00:32.2297767
+exit PostResolve2
+-----
+Date: 2/24/2014 10:41:44 AM	Available memory: 7866	Used memory: 97	Elapsed Time: 00:00:32.2457751
+enter PostResolve3
+-----
+Date: 2/24/2014 10:41:44 AM	Available memory: 7866	Used memory: 97	Elapsed Time: 00:00:32.2547742
+enter SolveAll
+-----
+Date: 2/24/2014 10:41:44 AM	Available memory: 7866	Used memory: 97	Elapsed Time: 00:00:32.2597737
+exit SolveAll
+-----
+Date: 2/24/2014 10:41:44 AM	Available memory: 7866	Used memory: 97	Elapsed Time: 00:00:32.2657731
+exit PostResolve3
+-----
+Date: 2/24/2014 10:41:44 AM	Available memory: 7867	Used memory: 97	Elapsed Time: 00:00:32.3407656
+exit ResolveSymbols
+-----
+Date: 2/24/2014 10:41:44 AM	Available memory: 7866	Used memory: 97	Elapsed Time: 00:00:32.3497647
+End Parsing JAVASCRIPT
+-----
+Date: 2/24/2014 10:41:44 AM	Available memory: 7866	Used memory: 97	Elapsed Time: 00:00:32.3557641
+Begin Parsing VBS
+-----
+Date: 2/24/2014 10:41:44 AM	Available memory: 7865	Used memory: 97	Elapsed Time: 00:00:32.3807616
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdminBooks.aspx
+-----
+Date: 2/24/2014 10:41:44 AM	Available memory: 7865	Used memory: 97	Elapsed Time: 00:00:32.4197577
+Finished processing file: 
+-----
+Date: 2/24/2014 10:41:44 AM	Available memory: 7866	Used memory: 97	Elapsed Time: 00:00:32.5267470
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdminMenu.aspx
+-----
+Date: 2/24/2014 10:41:44 AM	Available memory: 7866	Used memory: 97	Elapsed Time: 00:00:32.5477449
+Finished processing file: 
+-----
+Date: 2/24/2014 10:41:44 AM	Available memory: 7866	Used memory: 97	Elapsed Time: 00:00:32.5847412
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdvSearch.aspx
+-----
+Date: 2/24/2014 10:41:44 AM	Available memory: 7866	Used memory: 97	Elapsed Time: 00:00:32.6017395
+Finished processing file: 
+-----
+Date: 2/24/2014 10:41:44 AM	Available memory: 7866	Used memory: 97	Elapsed Time: 00:00:32.7027294
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\BookDetail.aspx
+-----
+Date: 2/24/2014 10:41:44 AM	Available memory: 7866	Used memory: 97	Elapsed Time: 00:00:32.7217275
+Finished processing file: 
+-----
+Date: 2/24/2014 10:41:44 AM	Available memory: 7866	Used memory: 97	Elapsed Time: 00:00:32.8077189
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\BookMaint.aspx
+-----
+Date: 2/24/2014 10:41:44 AM	Available memory: 7866	Used memory: 97	Elapsed Time: 00:00:32.8257171
+Finished processing file: 
+-----
+Date: 2/24/2014 10:41:44 AM	Available memory: 7866	Used memory: 97	Elapsed Time: 00:00:32.9107086
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\Books.aspx
+-----
+Date: 2/24/2014 10:41:44 AM	Available memory: 7866	Used memory: 97	Elapsed Time: 00:00:32.9277069
+Finished processing file: 
+-----
+Date: 2/24/2014 10:41:44 AM	Available memory: 7866	Used memory: 97	Elapsed Time: 00:00:33.0146982
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\CardTypesGrid.aspx
+-----
+Date: 2/24/2014 10:41:45 AM	Available memory: 7866	Used memory: 97	Elapsed Time: 00:00:33.0316965
+Finished processing file: 
+-----
+Date: 2/24/2014 10:41:45 AM	Available memory: 7865	Used memory: 98	Elapsed Time: 00:00:33.1196877
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\CardTypesRecord.aspx
+-----
+Date: 2/24/2014 10:41:45 AM	Available memory: 7864	Used memory: 99	Elapsed Time: 00:00:33.1386858
+Finished processing file: 
+-----
+Date: 2/24/2014 10:41:45 AM	Available memory: 7864	Used memory: 99	Elapsed Time: 00:00:33.2226774
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\CategoriesGrid.aspx
+-----
+Date: 2/24/2014 10:41:45 AM	Available memory: 7863	Used memory: 100	Elapsed Time: 00:00:33.2396757
+Finished processing file: 
+-----
+Date: 2/24/2014 10:41:45 AM	Available memory: 7862	Used memory: 101	Elapsed Time: 00:00:33.3286668
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\CategoriesRecord.aspx
+-----
+Date: 2/24/2014 10:41:45 AM	Available memory: 7862	Used memory: 101	Elapsed Time: 00:00:33.3466650
+Finished processing file: 
+-----
+Date: 2/24/2014 10:41:45 AM	Available memory: 7861	Used memory: 102	Elapsed Time: 00:00:33.4306566
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\CCPager.ascx
+-----
+Date: 2/24/2014 10:41:45 AM	Available memory: 7860	Used memory: 103	Elapsed Time: 00:00:33.4476549
+Finished processing file: 
+-----
+Date: 2/24/2014 10:41:45 AM	Available memory: 7860	Used memory: 103	Elapsed Time: 00:00:33.5356461
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\Default.aspx
+-----
+Date: 2/24/2014 10:41:45 AM	Available memory: 7859	Used memory: 104	Elapsed Time: 00:00:33.5636433
+Finished processing file: 
+-----
+Date: 2/24/2014 10:41:45 AM	Available memory: 7858	Used memory: 105	Elapsed Time: 00:00:33.6396357
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\EditorialCatGrid.aspx
+-----
+Date: 2/24/2014 10:41:45 AM	Available memory: 7858	Used memory: 105	Elapsed Time: 00:00:33.6576339
+Finished processing file: 
+-----
+Date: 2/24/2014 10:41:45 AM	Available memory: 7857	Used memory: 106	Elapsed Time: 00:00:33.7406256
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\EditorialCatRecord.aspx
+-----
+Date: 2/24/2014 10:41:45 AM	Available memory: 7856	Used memory: 107	Elapsed Time: 00:00:33.7536243
+Finished processing file: 
+-----
+Date: 2/24/2014 10:41:45 AM	Available memory: 7856	Used memory: 107	Elapsed Time: 00:00:33.8436153
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\EditorialsGrid.aspx
+-----
+Date: 2/24/2014 10:41:45 AM	Available memory: 7855	Used memory: 108	Elapsed Time: 00:00:33.8566140
+Finished processing file: 
+-----
+Date: 2/24/2014 10:41:45 AM	Available memory: 7854	Used memory: 109	Elapsed Time: 00:00:33.9446052
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\EditorialsRecord.aspx
+-----
+Date: 2/24/2014 10:41:45 AM	Available memory: 7854	Used memory: 109	Elapsed Time: 00:00:33.9656031
+Finished processing file: 
+-----
+Date: 2/24/2014 10:41:46 AM	Available memory: 7853	Used memory: 110	Elapsed Time: 00:00:34.0545942
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\Footer.ascx
+-----
+Date: 2/24/2014 10:41:46 AM	Available memory: 7852	Used memory: 111	Elapsed Time: 00:00:34.0745922
+Finished processing file: 
+-----
+Date: 2/24/2014 10:41:46 AM	Available memory: 7852	Used memory: 111	Elapsed Time: 00:00:34.1565840
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\Header.ascx
+-----
+Date: 2/24/2014 10:41:46 AM	Available memory: 7852	Used memory: 111	Elapsed Time: 00:00:34.1745822
+Finished processing file: 
+-----
+Date: 2/24/2014 10:41:46 AM	Available memory: 7852	Used memory: 111	Elapsed Time: 00:00:34.2615735
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\Login.aspx
+-----
+Date: 2/24/2014 10:41:46 AM	Available memory: 7852	Used memory: 111	Elapsed Time: 00:00:34.2785718
+Finished processing file: 
+-----
+Date: 2/24/2014 10:41:46 AM	Available memory: 7852	Used memory: 111	Elapsed Time: 00:00:34.3635633
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\MembersGrid.aspx
+-----
+Date: 2/24/2014 10:41:46 AM	Available memory: 7852	Used memory: 111	Elapsed Time: 00:00:34.3805616
+Finished processing file: 
+-----
+Date: 2/24/2014 10:41:46 AM	Available memory: 7852	Used memory: 111	Elapsed Time: 00:00:34.4675529
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\MembersInfo.aspx
+-----
+Date: 2/24/2014 10:41:46 AM	Available memory: 7852	Used memory: 111	Elapsed Time: 00:00:34.4845512
+Finished processing file: 
+-----
+Date: 2/24/2014 10:41:46 AM	Available memory: 7852	Used memory: 111	Elapsed Time: 00:00:34.5685428
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\MembersRecord.aspx
+-----
+Date: 2/24/2014 10:41:46 AM	Available memory: 7852	Used memory: 111	Elapsed Time: 00:00:34.5845412
+Finished processing file: 
+-----
+Date: 2/24/2014 10:41:46 AM	Available memory: 7852	Used memory: 111	Elapsed Time: 00:00:34.6725324
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\MyInfo.aspx
+-----
+Date: 2/24/2014 10:41:46 AM	Available memory: 7852	Used memory: 111	Elapsed Time: 00:00:34.6905306
+Finished processing file: 
+-----
+Date: 2/24/2014 10:41:46 AM	Available memory: 7852	Used memory: 111	Elapsed Time: 00:00:34.7785218
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\OrdersGrid.aspx
+-----
+Date: 2/24/2014 10:41:46 AM	Available memory: 7852	Used memory: 111	Elapsed Time: 00:00:34.7955201
+Finished processing file: 
+-----
+Date: 2/24/2014 10:41:46 AM	Available memory: 7852	Used memory: 111	Elapsed Time: 00:00:34.8795117
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\OrdersRecord.aspx
+-----
+Date: 2/24/2014 10:41:46 AM	Available memory: 7852	Used memory: 111	Elapsed Time: 00:00:34.8985098
+Finished processing file: 
+-----
+Date: 2/24/2014 10:41:46 AM	Available memory: 7852	Used memory: 111	Elapsed Time: 00:00:34.9835013
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\Registration.aspx
+-----
+Date: 2/24/2014 10:41:46 AM	Available memory: 7852	Used memory: 111	Elapsed Time: 00:00:35.0004996
+Finished processing file: 
+-----
+Date: 2/24/2014 10:41:47 AM	Available memory: 7852	Used memory: 111	Elapsed Time: 00:00:35.0844912
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\ShoppingCart.aspx
+-----
+Date: 2/24/2014 10:41:47 AM	Available memory: 7852	Used memory: 111	Elapsed Time: 00:00:35.1034893
+Finished processing file: 
+-----
+Date: 2/24/2014 10:41:47 AM	Available memory: 7852	Used memory: 111	Elapsed Time: 00:00:35.1894807
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\ShoppingCartRecord.aspx
+-----
+Date: 2/24/2014 10:41:47 AM	Available memory: 7852	Used memory: 111	Elapsed Time: 00:00:35.2074789
+Finished processing file: 
+-----
+Date: 2/24/2014 10:41:47 AM	Available memory: 7853	Used memory: 111	Elapsed Time: 00:00:35.3014695
+Starting Resolver
+-----
+Date: 2/24/2014 10:41:47 AM	Available memory: 7853	Used memory: 111	Elapsed Time: 00:00:35.3094687
+Starting ResolveSymbols
+-----
+Date: 2/24/2014 10:41:47 AM	Available memory: 7868	Used memory: 96	Elapsed Time: 00:00:35.4664530
+Ending ResolveSymbols
+-----
+Date: 2/24/2014 10:41:47 AM	Available memory: 7868	Used memory: 96	Elapsed Time: 00:00:35.4714525
+Starting ResolveExpressions
+-----
+Date: 2/24/2014 10:41:47 AM	Available memory: 7867	Used memory: 97	Elapsed Time: 00:00:35.4804516
+Ending ResolveExpressions
+-----
+Date: 2/24/2014 10:41:47 AM	Available memory: 7867	Used memory: 97	Elapsed Time: 00:00:35.4864510
+Ending Resolver
+-----
+Date: 2/24/2014 10:41:47 AM	Available memory: 7867	Used memory: 97	Elapsed Time: 00:00:35.4924504
+End Parsing VBS
+-----
+Date: 2/24/2014 10:41:47 AM	Available memory: 7867	Used memory: 97	Elapsed Time: 00:00:35.4974499
+Begin Parsing VBNET
+-----
+Date: 2/24/2014 10:41:47 AM	Available memory: 7867	Used memory: 97	Elapsed Time: 00:00:35.5194477
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdminBooks.aspx
+-----
+Date: 2/24/2014 10:41:48 AM	Available memory: 7865	Used memory: 99	Elapsed Time: 00:00:36.3293667
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdminBooks.aspx
+-----
+Date: 2/24/2014 10:41:48 AM	Available memory: 7865	Used memory: 99	Elapsed Time: 00:00:36.3433653
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdminMenu.aspx
+-----
+Date: 2/24/2014 10:41:48 AM	Available memory: 7863	Used memory: 102	Elapsed Time: 00:00:36.6513345
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdminMenu.aspx
+-----
+Date: 2/24/2014 10:41:48 AM	Available memory: 7863	Used memory: 102	Elapsed Time: 00:00:36.6643332
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdvSearch.aspx
+-----
+Date: 2/24/2014 10:41:48 AM	Available memory: 7863	Used memory: 102	Elapsed Time: 00:00:36.9733023
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdvSearch.aspx
+-----
+Date: 2/24/2014 10:41:48 AM	Available memory: 7863	Used memory: 102	Elapsed Time: 00:00:36.9982998
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\BookDetail.aspx
+-----
+Date: 2/24/2014 10:41:49 AM	Available memory: 7862	Used memory: 102	Elapsed Time: 00:00:37.4072589
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\BookDetail.aspx
+-----
+Date: 2/24/2014 10:41:49 AM	Available memory: 7862	Used memory: 102	Elapsed Time: 00:00:37.4202576
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\BookMaint.aspx
+-----
+Date: 2/24/2014 10:41:49 AM	Available memory: 7863	Used memory: 102	Elapsed Time: 00:00:37.7282268
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\BookMaint.aspx
+-----
+Date: 2/24/2014 10:41:49 AM	Available memory: 7863	Used memory: 102	Elapsed Time: 00:00:37.7412255
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\Books.aspx
+-----
+Date: 2/24/2014 10:41:50 AM	Available memory: 7863	Used memory: 102	Elapsed Time: 00:00:38.3501646
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\Books.aspx
+-----
+Date: 2/24/2014 10:41:50 AM	Available memory: 7863	Used memory: 102	Elapsed Time: 00:00:38.3621634
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\CardTypesGrid.aspx
+-----
+Date: 2/24/2014 10:41:50 AM	Available memory: 7862	Used memory: 103	Elapsed Time: 00:00:38.6691327
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\CardTypesGrid.aspx
+-----
+Date: 2/24/2014 10:41:50 AM	Available memory: 7861	Used memory: 104	Elapsed Time: 00:00:38.6801316
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\CardTypesRecord.aspx
+-----
+Date: 2/24/2014 10:41:50 AM	Available memory: 7860	Used memory: 104	Elapsed Time: 00:00:38.9871009
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\CardTypesRecord.aspx
+-----
+Date: 2/24/2014 10:41:50 AM	Available memory: 7860	Used memory: 105	Elapsed Time: 00:00:38.9980998
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\CategoriesGrid.aspx
+-----
+Date: 2/24/2014 10:41:51 AM	Available memory: 7859	Used memory: 106	Elapsed Time: 00:00:39.3060690
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\CategoriesGrid.aspx
+-----
+Date: 2/24/2014 10:41:51 AM	Available memory: 7858	Used memory: 107	Elapsed Time: 00:00:39.3180678
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\CategoriesRecord.aspx
+-----
+Date: 2/24/2014 10:41:51 AM	Available memory: 7857	Used memory: 108	Elapsed Time: 00:00:39.6290367
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\CategoriesRecord.aspx
+-----
+Date: 2/24/2014 10:41:51 AM	Available memory: 7857	Used memory: 109	Elapsed Time: 00:00:39.6430353
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\CCPager.ascx
+-----
+Date: 2/24/2014 10:41:51 AM	Available memory: 7855	Used memory: 110	Elapsed Time: 00:00:39.9510045
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\CCPager.ascx
+-----
+Date: 2/24/2014 10:41:51 AM	Available memory: 7855	Used memory: 110	Elapsed Time: 00:00:39.9660030
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\CxResults.xml
+-----
+Date: 2/24/2014 10:41:52 AM	Available memory: 7854	Used memory: 111	Elapsed Time: 00:00:40.0749921
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\CxResults.xml
+-----
+Date: 2/24/2014 10:41:52 AM	Available memory: 7853	Used memory: 112	Elapsed Time: 00:00:40.0859910
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\Default.aspx
+-----
+Date: 2/24/2014 10:41:53 AM	Available memory: 7853	Used memory: 112	Elapsed Time: 00:00:41.0918904
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\Default.aspx
+-----
+Date: 2/24/2014 10:41:53 AM	Available memory: 7852	Used memory: 113	Elapsed Time: 00:00:41.1008895
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\EditorialCatGrid.aspx
+-----
+Date: 2/24/2014 10:41:53 AM	Available memory: 7850	Used memory: 115	Elapsed Time: 00:00:41.6088387
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\EditorialCatGrid.aspx
+-----
+Date: 2/24/2014 10:41:53 AM	Available memory: 7850	Used memory: 115	Elapsed Time: 00:00:41.6218374
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\EditorialCatRecord.aspx
+-----
+Date: 2/24/2014 10:41:53 AM	Available memory: 7849	Used memory: 116	Elapsed Time: 00:00:41.9318064
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\EditorialCatRecord.aspx
+-----
+Date: 2/24/2014 10:41:53 AM	Available memory: 7849	Used memory: 116	Elapsed Time: 00:00:41.9448051
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\EditorialsGrid.aspx
+-----
+Date: 2/24/2014 10:41:54 AM	Available memory: 7849	Used memory: 115	Elapsed Time: 00:00:42.3527643
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\EditorialsGrid.aspx
+-----
+Date: 2/24/2014 10:41:54 AM	Available memory: 7849	Used memory: 115	Elapsed Time: 00:00:42.3667629
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\EditorialsRecord.aspx
+-----
+Date: 2/24/2014 10:41:54 AM	Available memory: 7848	Used memory: 116	Elapsed Time: 00:00:42.6757320
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\EditorialsRecord.aspx
+-----
+Date: 2/24/2014 10:41:54 AM	Available memory: 7848	Used memory: 116	Elapsed Time: 00:00:42.6907305
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\Footer.ascx
+-----
+Date: 2/24/2014 10:41:54 AM	Available memory: 7848	Used memory: 116	Elapsed Time: 00:00:42.9986997
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\Footer.ascx
+-----
+Date: 2/24/2014 10:41:54 AM	Available memory: 7848	Used memory: 116	Elapsed Time: 00:00:43.0106985
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\Header.ascx
+-----
+Date: 2/24/2014 10:41:55 AM	Available memory: 7848	Used memory: 116	Elapsed Time: 00:00:43.3216674
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\Header.ascx
+-----
+Date: 2/24/2014 10:41:55 AM	Available memory: 7848	Used memory: 116	Elapsed Time: 00:00:43.3346661
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\Login.aspx
+-----
+Date: 2/24/2014 10:41:55 AM	Available memory: 7848	Used memory: 117	Elapsed Time: 00:00:43.6446351
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\Login.aspx
+-----
+Date: 2/24/2014 10:41:55 AM	Available memory: 7848	Used memory: 117	Elapsed Time: 00:00:43.6576338
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\MembersGrid.aspx
+-----
+Date: 2/24/2014 10:41:56 AM	Available memory: 7847	Used memory: 117	Elapsed Time: 00:00:44.1655830
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\MembersGrid.aspx
+-----
+Date: 2/24/2014 10:41:56 AM	Available memory: 7847	Used memory: 117	Elapsed Time: 00:00:44.1775818
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\MembersInfo.aspx
+-----
+Date: 2/24/2014 10:41:56 AM	Available memory: 7847	Used memory: 118	Elapsed Time: 00:00:44.6855310
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\MembersInfo.aspx
+-----
+Date: 2/24/2014 10:41:56 AM	Available memory: 7847	Used memory: 118	Elapsed Time: 00:00:44.7005295
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\MembersRecord.aspx
+-----
+Date: 2/24/2014 10:41:57 AM	Available memory: 7846	Used memory: 119	Elapsed Time: 00:00:45.1084887
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\MembersRecord.aspx
+-----
+Date: 2/24/2014 10:41:57 AM	Available memory: 7846	Used memory: 119	Elapsed Time: 00:00:45.1194876
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\MyInfo.aspx
+-----
+Date: 2/24/2014 10:41:57 AM	Available memory: 7846	Used memory: 119	Elapsed Time: 00:00:45.4284567
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\MyInfo.aspx
+-----
+Date: 2/24/2014 10:41:57 AM	Available memory: 7846	Used memory: 119	Elapsed Time: 00:00:45.4414554
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\OrdersGrid.aspx
+-----
+Date: 2/24/2014 10:41:57 AM	Available memory: 7846	Used memory: 119	Elapsed Time: 00:00:45.9494046
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\OrdersGrid.aspx
+-----
+Date: 2/24/2014 10:41:57 AM	Available memory: 7846	Used memory: 119	Elapsed Time: 00:00:45.9624033
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\OrdersRecord.aspx
+-----
+Date: 2/24/2014 10:41:58 AM	Available memory: 7844	Used memory: 121	Elapsed Time: 00:00:46.2693726
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\OrdersRecord.aspx
+-----
+Date: 2/24/2014 10:41:58 AM	Available memory: 7844	Used memory: 121	Elapsed Time: 00:00:46.2793716
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\Registration.aspx
+-----
+Date: 2/24/2014 10:41:58 AM	Available memory: 7843	Used memory: 121	Elapsed Time: 00:00:46.5873408
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\Registration.aspx
+-----
+Date: 2/24/2014 10:41:58 AM	Available memory: 7843	Used memory: 121	Elapsed Time: 00:00:46.6093386
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\ShoppingCart.aspx
+-----
+Date: 2/24/2014 10:41:59 AM	Available memory: 7841	Used memory: 124	Elapsed Time: 00:00:47.1152880
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\ShoppingCart.aspx
+-----
+Date: 2/24/2014 10:41:59 AM	Available memory: 7840	Used memory: 125	Elapsed Time: 00:00:47.1242871
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\ShoppingCartRecord.aspx
+-----
+Date: 2/24/2014 10:41:59 AM	Available memory: 7842	Used memory: 123	Elapsed Time: 00:00:47.4342561
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\ShoppingCartRecord.aspx
+-----
+Date: 2/24/2014 10:41:59 AM	Available memory: 7842	Used memory: 123	Elapsed Time: 00:00:47.4542541
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\UpgradeLog.XML
+-----
+Date: 2/24/2014 10:41:59 AM	Available memory: 7842	Used memory: 123	Elapsed Time: 00:00:47.5732422
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\UpgradeLog.XML
+-----
+Date: 2/24/2014 10:41:59 AM	Available memory: 7842	Used memory: 123	Elapsed Time: 00:00:47.5852410
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\UpgradeLog2.XML
+-----
+Date: 2/24/2014 10:41:59 AM	Available memory: 7842	Used memory: 123	Elapsed Time: 00:00:47.6932302
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\UpgradeLog2.XML
+-----
+Date: 2/24/2014 10:41:59 AM	Available memory: 7842	Used memory: 123	Elapsed Time: 00:00:47.7062289
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\UpgradeLog3.XML
+-----
+Date: 2/24/2014 10:41:59 AM	Available memory: 7842	Used memory: 123	Elapsed Time: 00:00:47.8142181
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\UpgradeLog3.XML
+-----
+Date: 2/24/2014 10:41:59 AM	Available memory: 7842	Used memory: 123	Elapsed Time: 00:00:47.8252170
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\Web.config
+-----
+Date: 2/24/2014 10:42:00 AM	Available memory: 7842	Used memory: 123	Elapsed Time: 00:00:48.3331662
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\Web.config
+-----
+Date: 2/24/2014 10:42:00 AM	Available memory: 7842	Used memory: 123	Elapsed Time: 00:00:48.3421653
+Starting Resolver
+-----
+Date: 2/24/2014 10:42:00 AM	Available memory: 7842	Used memory: 123	Elapsed Time: 00:00:48.3511644
+Starting ResolveSymbols
+-----
+Date: 2/24/2014 10:42:00 AM	Available memory: 7842	Used memory: 123	Elapsed Time: 00:00:48.3681627
+Enter PostResolveSymbols
+-----
+Date: 2/24/2014 10:42:00 AM	Available memory: 7842	Used memory: 123	Elapsed Time: 00:00:48.3751620
+Enter PostResolve1
+-----
+Date: 2/24/2014 10:42:00 AM	Available memory: 7842	Used memory: 123	Elapsed Time: 00:00:48.4031592
+Wxit PostResolve1
+-----
+Date: 2/24/2014 10:42:00 AM	Available memory: 7842	Used memory: 123	Elapsed Time: 00:00:48.4091586
+Enter PostResolve2
+-----
+Date: 2/24/2014 10:42:00 AM	Available memory: 7840	Used memory: 125	Elapsed Time: 00:00:48.4341561
+Exit PostResolve2
+-----
+Date: 2/24/2014 10:42:00 AM	Available memory: 7840	Used memory: 124	Elapsed Time: 00:00:48.4441551
+Enter PostResolve3
+-----
+Date: 2/24/2014 10:42:00 AM	Available memory: 7841	Used memory: 124	Elapsed Time: 00:00:48.4501545
+Enter SolveAll
+-----
+Date: 2/24/2014 10:42:00 AM	Available memory: 7841	Used memory: 124	Elapsed Time: 00:00:48.4601535
+Exit SolveAll
+-----
+Date: 2/24/2014 10:42:00 AM	Available memory: 7841	Used memory: 124	Elapsed Time: 00:00:48.4771518
+Exit PostResolve3
+-----
+Date: 2/24/2014 10:42:00 AM	Available memory: 7841	Used memory: 124	Elapsed Time: 00:00:48.4841511
+Enter PostResolve4
+-----
+Date: 2/24/2014 10:42:00 AM	Available memory: 7840	Used memory: 125	Elapsed Time: 00:00:48.4971498
+Exit PostResolve4
+-----
+Date: 2/24/2014 10:42:00 AM	Available memory: 7840	Used memory: 125	Elapsed Time: 00:00:48.5101485
+Exit PostResolveSymbols
+-----
+Date: 2/24/2014 10:42:00 AM	Available memory: 7860	Used memory: 105	Elapsed Time: 00:00:48.6031392
+Exit ResolveSymbols
+-----
+Date: 2/24/2014 10:42:00 AM	Available memory: 7860	Used memory: 105	Elapsed Time: 00:00:48.6091386
+Ending ResolveSymbols
+-----
+Date: 2/24/2014 10:42:00 AM	Available memory: 7860	Used memory: 105	Elapsed Time: 00:00:48.6141381
+Starting ResolveExpressions
+-----
+Date: 2/24/2014 10:42:00 AM	Available memory: 7860	Used memory: 105	Elapsed Time: 00:00:48.6261369
+Ending ResolveExpressions
+-----
+Date: 2/24/2014 10:42:00 AM	Available memory: 7860	Used memory: 105	Elapsed Time: 00:00:48.6311364
+Ending Resolver
+-----
+Date: 2/24/2014 10:42:00 AM	Available memory: 7860	Used memory: 105	Elapsed Time: 00:00:48.6361359
+End Parsing VBNET
+-----
+Date: 2/24/2014 10:42:00 AM	Available memory: 7860	Used memory: 105	Elapsed Time: 00:00:48.6441351
+Begin Parsing PL/SQL
+-----
+Date: 2/24/2014 10:42:00 AM	Available memory: 7859	Used memory: 105	Elapsed Time: 00:00:48.7911204
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\SQL\BookStore_MSSQL.sql
+-----
+Date: 2/24/2014 10:42:00 AM	Available memory: 7858	Used memory: 105	Elapsed Time: 00:00:48.9561039
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\SQL\BookStore_MSSQL.sql
+-----
+Date: 2/24/2014 10:42:00 AM	Available memory: 7859	Used memory: 105	Elapsed Time: 00:00:48.9911004
+Started processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\SQL\BookStore_MySQL.sql
+-----
+Date: 2/24/2014 10:42:01 AM	Available memory: 7858	Used memory: 106	Elapsed Time: 00:00:49.0640931
+\\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\SQL\BookStore_MySQL.sql:4:15: unexpected token: ["exists",<171>,line=4,col=15]
+-----
+Date: 2/24/2014 10:42:01 AM	Available memory: 7858	Used memory: 106	Elapsed Time: 00:00:49.0760919
+\\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\SQL\BookStore_MySQL.sql: tested 1 line(s):
+4.
+-----
+Date: 2/24/2014 10:42:01 AM	Available memory: 7858	Used memory: 106	Elapsed Time: 00:00:49.0850910
+Finished processing file: \\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\SQL\BookStore_MySQL.sql
+-----
+Date: 2/24/2014 10:42:01 AM	Available memory: 7859	Used memory: 106	Elapsed Time: 00:00:49.2010794
+Starting Resolver
+-----
+Date: 2/24/2014 10:42:01 AM	Available memory: 7859	Used memory: 106	Elapsed Time: 00:00:49.2100785
+Starting ResolveSymbols
+-----
+Date: 2/24/2014 10:42:01 AM	Available memory: 7859	Used memory: 106	Elapsed Time: 00:00:49.2590736
+CSharp.dll->ResolveSymbols: System.NullReferenceException: Object reference not set to an instance of an object.
+   at Checkmarx.PLSQLParserToDom.PLSqlAST.ResolveSymbols() in c:\Enterprise\CXEngine\CxEngine Main\Engine\CSharp\Parse\PLSQL\PLSqlAST.cs:line 501
+-----
+Date: 2/24/2014 10:42:01 AM	Available memory: 7859	Used memory: 106	Elapsed Time: 00:00:49.2680727
+Enter PostResolveSymbols
+-----
+Date: 2/24/2014 10:42:01 AM	Available memory: 7859	Used memory: 107	Elapsed Time: 00:00:49.2970698
+Enter PostResolve1
+-----
+Date: 2/24/2014 10:42:01 AM	Available memory: 7859	Used memory: 107	Elapsed Time: 00:00:49.3020693
+Wxit PostResolve1
+-----
+Date: 2/24/2014 10:42:01 AM	Available memory: 7858	Used memory: 108	Elapsed Time: 00:00:49.3220673
+Enter PostResolve2
+-----
+Date: 2/24/2014 10:42:01 AM	Available memory: 7857	Used memory: 108	Elapsed Time: 00:00:49.3280667
+Exit PostResolve2
+-----
+Date: 2/24/2014 10:42:01 AM	Available memory: 7857	Used memory: 109	Elapsed Time: 00:00:49.3440651
+Enter PostResolve3
+-----
+Date: 2/24/2014 10:42:01 AM	Available memory: 7856	Used memory: 110	Elapsed Time: 00:00:49.3510644
+Enter SolveAll
+-----
+Date: 2/24/2014 10:42:01 AM	Available memory: 7855	Used memory: 111	Elapsed Time: 00:00:49.3570638
+Exit SolveAll
+-----
+Date: 2/24/2014 10:42:01 AM	Available memory: 7854	Used memory: 112	Elapsed Time: 00:00:49.3620633
+Exit PostResolve3
+-----
+Date: 2/24/2014 10:42:01 AM	Available memory: 7853	Used memory: 113	Elapsed Time: 00:00:49.3700625
+Exit PostResolveSymbols
+-----
+Date: 2/24/2014 10:42:01 AM	Available memory: 7858	Used memory: 107	Elapsed Time: 00:00:49.4500545
+Exit ResolveSymbols
+-----
+Date: 2/24/2014 10:42:01 AM	Available memory: 7858	Used memory: 107	Elapsed Time: 00:00:49.4550540
+Ending ResolveSymbols
+-----
+Date: 2/24/2014 10:42:01 AM	Available memory: 7858	Used memory: 107	Elapsed Time: 00:00:49.4610534
+Starting ResolveExpressions
+-----
+Date: 2/24/2014 10:42:01 AM	Available memory: 7858	Used memory: 108	Elapsed Time: 00:00:49.4720523
+Ending ResolveExpressions
+-----
+Date: 2/24/2014 10:42:01 AM	Available memory: 7858	Used memory: 108	Elapsed Time: 00:00:49.4780517
+Ending Resolver
+-----
+Date: 2/24/2014 10:42:01 AM	Available memory: 7858	Used memory: 108	Elapsed Time: 00:00:49.4830512
+End Parsing PL/SQL
+-----
+Date: 2/24/2014 10:42:01 AM	Available memory: 7858	Used memory: 107	Elapsed Time: 00:00:49.5070488
+Finish analyzing DOM of the project '\\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines'
+-----
+Date: 2/24/2014 10:42:01 AM	Available memory: 7858	Used memory: 107	Elapsed Time: 00:00:49.5120483
+Begin building CxList of the project '\\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines'
+-----
+Date: 2/24/2014 10:42:01 AM	Available memory: 7860	Used memory: 106	Elapsed Time: 00:00:49.6610334
+Number of DOM objects: 42599
+-----
+Date: 2/24/2014 10:42:01 AM	Available memory: 7859	Used memory: 106	Elapsed Time: 00:00:49.6720323
+Begin saving all definitions
+-----
+Date: 2/24/2014 10:42:01 AM	Available memory: 7860	Used memory: 106	Elapsed Time: 00:00:49.8020193
+End saving all definitions
+-----
+Date: 2/24/2014 10:42:01 AM	Available memory: 7860	Used memory: 106	Elapsed Time: 00:00:49.8090186
+Finish building CxList of the project '\\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines'
+-----
+Date: 2/24/2014 10:42:01 AM	Available memory: 7860	Used memory: 106	Elapsed Time: 00:00:49.8140181
+Begin building properties of the project '\\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines'
+-----
+Date: 2/24/2014 10:42:01 AM	Available memory: 7859	Used memory: 106	Elapsed Time: 00:00:49.8690126
+Finish building properties of the project '\\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines'
+-----
+Date: 2/24/2014 10:42:01 AM	Available memory: 7859	Used memory: 106	Elapsed Time: 00:00:49.8810114
+Begin fixing members order for '\\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdminBooks.aspx'
+-----
+Date: 2/24/2014 10:42:01 AM	Available memory: 7859	Used memory: 107	Elapsed Time: 00:00:49.8970098
+End fixing members order for '\\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdminBooks.aspx'
+-----
+Date: 2/24/2014 10:42:01 AM	Available memory: 7859	Used memory: 107	Elapsed Time: 00:00:49.9040091
+Begin fixing inherited members for '\\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdminBooks.aspx'
+-----
+Date: 2/24/2014 10:42:01 AM	Available memory: 7858	Used memory: 108	Elapsed Time: 00:00:49.9350060
+End fixing inherited members for '\\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdminBooks.aspx'
+-----
+Date: 2/24/2014 10:42:01 AM	Available memory: 7857	Used memory: 109	Elapsed Time: 00:00:49.9450050
+Start Sync Parameter Members Of Method Calls
+-----
+Date: 2/24/2014 10:42:01 AM	Available memory: 7857	Used memory: 109	Elapsed Time: 00:00:50.0029992
+Finish Sync Parameter Members Of Method Calls
+-----
+Date: 2/24/2014 10:42:01 AM	Available memory: 7856	Used memory: 110	Elapsed Time: 00:00:50.0109984
+Start Fix Chain Costructor Invocation
+-----
+Date: 2/24/2014 10:42:02 AM	Available memory: 7855	Used memory: 111	Elapsed Time: 00:00:50.0249970
+Finish Fix Chain Costructor Invocation
+-----
+Date: 2/24/2014 10:42:02 AM	Available memory: 7854	Used memory: 111	Elapsed Time: 00:00:50.0339961
+Start Sync This Parameter Members Of Method Calls
+-----
+Date: 2/24/2014 10:42:02 AM	Available memory: 7854	Used memory: 112	Elapsed Time: 00:00:50.0519943
+Finish This Sync Parameter Members Of Method Calls
+-----
+Date: 2/24/2014 10:42:02 AM	Available memory: 7853	Used memory: 113	Elapsed Time: 00:00:50.0579937
+Begin fixing ASP/VBS/VB6 identifier to method call'\\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdminBooks.aspx'
+-----
+Date: 2/24/2014 10:42:02 AM	Available memory: 7852	Used memory: 114	Elapsed Time: 00:00:50.0959899
+Checked methods: 0; Referenced: 0; References: 0
+-----
+Date: 2/24/2014 10:42:02 AM	Available memory: 7852	Used memory: 114	Elapsed Time: 00:00:50.1039891
+Finish fixing ASP/VBS/VB6 identifier to method call'\\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdminBooks.aspx'
+-----
+Date: 2/24/2014 10:42:02 AM	Available memory: 7851	Used memory: 115	Elapsed Time: 00:00:50.1109884
+Begin fixing ASP/VBS/VB6 arrays for '\\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdminBooks.aspx'
+-----
+Date: 2/24/2014 10:42:02 AM	Available memory: 7850	Used memory: 116	Elapsed Time: 00:00:50.1249870
+End fixing ASP/VBS/VB6 arrays for '\\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdminBooks.aspx'
+-----
+Date: 2/24/2014 10:42:02 AM	Available memory: 7850	Used memory: 116	Elapsed Time: 00:00:50.1299865
+Begin handling ASP includes for '\\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdminBooks.aspx'
+-----
+Date: 2/24/2014 10:42:02 AM	Available memory: 7848	Used memory: 117	Elapsed Time: 00:00:50.1419853
+End handling ASP includes for '\\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdminBooks.aspx'
+-----
+Date: 2/24/2014 10:42:02 AM	Available memory: 7847	Used memory: 118	Elapsed Time: 00:00:50.1479847
+Begin ResolveCPP method returns for flow '\\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdminBooks.aspx'
+-----
+Date: 2/24/2014 10:42:02 AM	Available memory: 7847	Used memory: 119	Elapsed Time: 00:00:50.1569838
+Begin ResolveCPP method returns for flow '\\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdminBooks.aspx'
+-----
+Date: 2/24/2014 10:42:02 AM	Available memory: 7846	Used memory: 120	Elapsed Time: 00:00:50.1629832
+Begin fixing Javascript references for '\\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdminBooks.aspx'
+-----
+Date: 2/24/2014 10:42:02 AM	Available memory: 7845	Used memory: 121	Elapsed Time: 00:00:50.1819813
+End fixing Javascript references for '\\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdminBooks.aspx'
+-----
+Date: 2/24/2014 10:42:02 AM	Available memory: 7844	Used memory: 121	Elapsed Time: 00:00:50.1879807
+Begin building includes mapping '\\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdminBooks.aspx'
+-----
+Date: 2/24/2014 10:42:02 AM	Available memory: 7844	Used memory: 122	Elapsed Time: 00:00:50.2129782
+end building includes mapping '\\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdminBooks.aspx'
+-----
+Date: 2/24/2014 10:42:02 AM	Available memory: 7843	Used memory: 123	Elapsed Time: 00:00:50.2189776
+Begin fixing ObjectiveC references for '\\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdminBooks.aspx'
+-----
+Date: 2/24/2014 10:42:02 AM	Available memory: 7843	Used memory: 123	Elapsed Time: 00:00:50.2269768
+End fixing ObjectiveC references for '\\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdminBooks.aspx'
+-----
+Date: 2/24/2014 10:42:02 AM	Available memory: 7842	Used memory: 124	Elapsed Time: 00:00:50.2329762
+Begin fixing Perl references for '\\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdminBooks.aspx'
+-----
+Date: 2/24/2014 10:42:02 AM	Available memory: 7841	Used memory: 125	Elapsed Time: 00:00:50.2419753
+End fixing Perl references for '\\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdminBooks.aspx'
+-----
+Date: 2/24/2014 10:42:02 AM	Available memory: 7841	Used memory: 125	Elapsed Time: 00:00:50.2489746
+Begin fixing PHP references for '\\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdminBooks.aspx'
+-----
+Date: 2/24/2014 10:42:02 AM	Available memory: 7840	Used memory: 126	Elapsed Time: 00:00:50.2579737
+End fixing PHP references for '\\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdminBooks.aspx'
+-----
+Date: 2/24/2014 10:42:02 AM	Available memory: 7840	Used memory: 126	Elapsed Time: 00:00:50.2649730
+Begin adding PHP definitions for '\\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdminBooks.aspx'
+-----
+Date: 2/24/2014 10:42:02 AM	Available memory: 7839	Used memory: 126	Elapsed Time: 00:00:50.2739721
+End adding PHP definitions for '\\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdminBooks.aspx'
+-----
+Date: 2/24/2014 10:42:02 AM	Available memory: 7839	Used memory: 127	Elapsed Time: 00:00:50.2809714
+Begin fixing PLSQL identifier to method call'\\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdminBooks.aspx'
+-----
+Date: 2/24/2014 10:42:02 AM	Available memory: 7839	Used memory: 126	Elapsed Time: 00:00:50.2949700
+Checked methods: 0; Referenced: 0; References: 0
+-----
+Date: 2/24/2014 10:42:02 AM	Available memory: 7839	Used memory: 126	Elapsed Time: 00:00:50.3009694
+Finish fixing PLSQL identifier to method call'\\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdminBooks.aspx'
+-----
+Date: 2/24/2014 10:42:02 AM	Available memory: 7839	Used memory: 126	Elapsed Time: 00:00:50.3059689
+Begin fixing PLSQL arrays for '\\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdminBooks.aspx'
+-----
+Date: 2/24/2014 10:42:02 AM	Available memory: 7839	Used memory: 126	Elapsed Time: 00:00:50.3169678
+End fixing PLSQL arrays for '\\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdminBooks.aspx'
+-----
+Date: 2/24/2014 10:42:02 AM	Available memory: 7839	Used memory: 126	Elapsed Time: 00:00:50.3219673
+Begin fixing PLSQL parameter direction for '\\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdminBooks.aspx'
+-----
+Date: 2/24/2014 10:42:02 AM	Available memory: 7839	Used memory: 127	Elapsed Time: 00:00:50.3339661
+End fixing PLSQL parameter direction for '\\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdminBooks.aspx'
+-----
+Date: 2/24/2014 10:42:02 AM	Available memory: 7839	Used memory: 127	Elapsed Time: 00:00:50.3409654
+Begin fixing Ruby identifier to method call'\\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdminBooks.aspx'
+-----
+Date: 2/24/2014 10:42:02 AM	Available memory: 7839	Used memory: 127	Elapsed Time: 00:00:50.3469648
+Finish fixing Ruby identifier to method call'\\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdminBooks.aspx'
+-----
+Date: 2/24/2014 10:42:02 AM	Available memory: 7839	Used memory: 127	Elapsed Time: 00:00:50.3519643
+Begin sending loop to plugin of the project '\\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdminBooks.aspx'
+-----
+Date: 2/24/2014 10:42:02 AM	Available memory: 7839	Used memory: 127	Elapsed Time: 00:00:50.3589636
+Finish sending loop to plugin of the project '\\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdminBooks.aspx'
+-----
+Date: 2/24/2014 10:42:02 AM	Available memory: 7839	Used memory: 127	Elapsed Time: 00:00:50.3639631
+Begin filling line pragma holes (42599) of the project '\\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdminBooks.aspx'
+-----
+Date: 2/24/2014 10:42:02 AM	Available memory: 7839	Used memory: 127	Elapsed Time: 00:00:50.3719623
+Finish filling line pragma holes (42599) of the project '\\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdminBooks.aspx'
+-----
+Date: 2/24/2014 10:42:02 AM	Available memory: 7839	Used memory: 127	Elapsed Time: 00:00:50.3769618
+Begin handling Ruby includes for '\\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdminBooks.aspx'
+-----
+Date: 2/24/2014 10:42:02 AM	Available memory: 7839	Used memory: 126	Elapsed Time: 00:00:50.3909604
+End handling Ruby includes for '\\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdminBooks.aspx'
+-----
+Date: 2/24/2014 10:42:02 AM	Available memory: 7840	Used memory: 126	Elapsed Time: 00:00:50.3969598
+Begin fixing VbNet references for '\\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdminBooks.aspx'
+-----
+Date: 2/24/2014 10:42:02 AM	Available memory: 7839	Used memory: 127	Elapsed Time: 00:00:50.4159579
+End fixing VbNet references for '\\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines\AdminBooks.aspx'
+-----
+Date: 2/24/2014 10:42:02 AM	Available memory: 7839	Used memory: 127	Elapsed Time: 00:00:50.4249570
+Begin building Flows of the project '\\storage\qa\Projects_new\CSharp\1_Under_70k\BookStore_NET_17588_lines'
+-----
+Date: 2/24/2014 10:42:02 AM	Available memory: 7839	Used memory: 127	Elapsed Time: 00:00:50.4319563
+Begin Loading from History 
+-----
+Date: 2/24/2014 10:42:02 AM	Available memory: 7839	Used memory: 127	Elapsed Time: 00:00:50.4399555
+Finish Loading from History 
+-----
+Date: 2/24/2014 10:42:02 AM	Available memory: 7839	Used memory: 127	Elapsed Time: 00:00:50.4449550
+Begin Expanding graph from History 
+-----
+Date: 2/24/2014 10:42:02 AM	Available memory: 7839	Used memory: 127	Elapsed Time: 00:00:50.4579537
+Begin Creating ExpandGraph 
+-----
+Date: 2/24/2014 10:42:02 AM	Available memory: 7839	Used memory: 127	Elapsed Time: 00:00:50.5339461
+Finish Creating ExpandGraph 
+-----
+Date: 2/24/2014 10:42:02 AM	Available memory: 7839	Used memory: 127	Elapsed Time: 00:00:50.5399455
+Begin expGraph.Expand() 
+-----
+Date: 2/24/2014 10:42:02 AM	Available memory: 7838	Used memory: 127	Elapsed Time: 00:00:50.5809414
+Before Starting *FG Threads
+-----
